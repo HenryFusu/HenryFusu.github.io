@@ -44,15 +44,21 @@
   };
 </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Henry扶苏">
-<meta property="og:url" content="http://henryfusu.com/archives/2020/index.html">
+  <meta name="description" content="简介&amp;emsp;&amp;emsp;在平时的开发里我们经常用到集合框架，比如ArrayList、HashMap、HashTable、HashSet，但是你有没有否关注过在某种特殊的场景下是否还有其它功能一样但效率更高、容错率更高的框架呢。其实我们常用的集合框架完全能帮我们解决问题，但作为一个不安分的程序员，在闲下来之后总是想试着分析分析其它的。说干就干，首先我们先要把我们的一些集合框架列出来再分别介绍，一">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Java集合类框架">
+<meta property="og:url" content="http://henryfusu.com/2020/04/16/Java%E9%9B%86%E5%90%88%E7%B1%BB%E6%A1%86%E6%9E%B6/index.html">
 <meta property="og:site_name" content="Henry扶苏">
+<meta property="og:description" content="简介&amp;emsp;&amp;emsp;在平时的开发里我们经常用到集合框架，比如ArrayList、HashMap、HashTable、HashSet，但是你有没有否关注过在某种特殊的场景下是否还有其它功能一样但效率更高、容错率更高的框架呢。其实我们常用的集合框架完全能帮我们解决问题，但作为一个不安分的程序员，在闲下来之后总是想试着分析分析其它的。说干就干，首先我们先要把我们的一些集合框架列出来再分别介绍，一">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/19891423-72eef68837b29560.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="article:published_time" content="2020-04-16T15:12:00.000Z">
+<meta property="article:modified_time" content="2020-04-16T15:13:02.792Z">
 <meta property="article:author" content="Henry扶苏">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://upload-images.jianshu.io/upload_images/19891423-72eef68837b29560.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 
-<link rel="canonical" href="http://henryfusu.com/archives/2020/">
+<link rel="canonical" href="http://henryfusu.com/2020/04/16/Java%E9%9B%86%E5%90%88%E7%B1%BB%E6%A1%86%E6%9E%B6/">
 
 
 <script id="page-configurations">
@@ -60,11 +66,11 @@
   CONFIG.page = {
     sidebar: "",
     isHome: false,
-    isPost: false
+    isPost: true
   };
 </script>
 
-  <title>归档 | Henry扶苏</title>
+  <title>Java集合类框架 | Henry扶苏</title>
   
 
 
@@ -209,173 +215,103 @@
           <div class="content">
             
 
+  <div class="posts-expand">
+      
   
   
-  
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        <span class="collection-header">嗯..! 目前共计 7 篇日志。 继续努力。</span>
-      </div>
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://henryfusu.com/2020/04/16/Java%E9%9B%86%E5%90%88%E7%B1%BB%E6%A1%86%E6%9E%B6/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="Henry扶苏">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Henry扶苏">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          Java集合类框架
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-04-16 23:12:00" itemprop="dateCreated datePublished" datetime="2020-04-16T23:12:00+08:00">2020-04-16</time>
+            </span>
+
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    <div class="collection-year">
-      <h2 class="collection-header">2020</h2>
-    </div>
+        <h4 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h4><p>&emsp;&emsp;在平时的开发里我们经常用到集合框架，比如ArrayList、HashMap、HashTable、HashSet，但是你有没有否关注过在某种特殊的场景下是否还有其它功能一样但效率更高、容错率更高的框架呢。其实我们常用的集合框架完全能帮我们解决问题，但作为一个不安分的程序员，在闲下来之后总是想试着分析分析其它的。说干就干，首先我们先要把我们的一些集合框架列出来再分别介绍，一图胜千言：</p>
+<a id="more"></a>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-04-16T23:15:07+08:00"
-              content="2020-04-16">
-          04-16
-        </time>
-      </div>
-
-      <h3 class="post-title">
-          <a class="post-title-link" href="/2020/04/16/%E5%85%B3%E4%BA%8E%E5%85%AC%E4%BC%97%E5%8F%B7%E5%BC%95%E6%B5%81/" itemprop="url">
-            <span itemprop="name">关于公众号引流</span>
-          </a>
-      </h3>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-04-16T23:14:31+08:00"
-              content="2020-04-16">
-          04-16
-        </time>
-      </div>
-
-      <h3 class="post-title">
-          <a class="post-title-link" href="/2020/04/16/%E6%8A%80%E6%9C%AF%E4%BA%BA%E6%80%8E%E4%B9%88%E5%BC%80%E5%A7%8B%E5%86%99%E5%8D%9A%E5%AE%A2%E5%92%8C%E8%BF%90%E8%90%A5%E5%85%AC%E4%BC%97%E5%8F%B7/" itemprop="url">
-            <span itemprop="name">技术人怎么开始写博客和运营公众号</span>
-          </a>
-      </h3>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-04-16T23:13:35+08:00"
-              content="2020-04-16">
-          04-16
-        </time>
-      </div>
-
-      <h3 class="post-title">
-          <a class="post-title-link" href="/2020/04/16/HashMap-%E5%A4%9A%E7%9F%A5%E5%A4%9A%E7%94%A8/" itemprop="url">
-            <span itemprop="name">HashMap 多知多用</span>
-          </a>
-      </h3>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-04-16T23:12:00+08:00"
-              content="2020-04-16">
-          04-16
-        </time>
-      </div>
-
-      <h3 class="post-title">
-          <a class="post-title-link" href="/2020/04/16/Java%E9%9B%86%E5%90%88%E7%B1%BB%E6%A1%86%E6%9E%B6/" itemprop="url">
-            <span itemprop="name">Java集合类框架</span>
-          </a>
-      </h3>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-04-16T23:07:38+08:00"
-              content="2020-04-16">
-          04-16
-        </time>
-      </div>
-
-      <h3 class="post-title">
-          <a class="post-title-link" href="/2020/04/16/%E4%BD%A0%E5%A5%BD-2020/" itemprop="url">
-            <span itemprop="name">你好 2020</span>
-          </a>
-      </h3>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-04-16T23:04:56+08:00"
-              content="2020-04-16">
-          04-16
-        </time>
-      </div>
-
-      <h3 class="post-title">
-          <a class="post-title-link" href="/2020/04/16/Android%E9%9D%A2%E8%AF%95%E7%9A%84%E7%A2%8E%E7%A2%8E%E5%BF%B5/" itemprop="url">
-            <span itemprop="name">Android面试的碎碎念</span>
-          </a>
-      </h3>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-04-16T22:25:02+08:00"
-              content="2020-04-16">
-          04-16
-        </time>
-      </div>
-
-      <h3 class="post-title">
-          <a class="post-title-link" href="/2020/04/16/%E5%88%9D%E6%9D%A5%E4%B9%8D%E5%88%B0-%E8%AF%B7%E5%A4%9A%E6%8C%87%E6%95%99/" itemprop="url">
-            <span itemprop="name">初来乍到,请多指教.</span>
-          </a>
-      </h3>
-
-    </header>
-  </article>
-
+<p><img src="https://upload-images.jianshu.io/upload_images/19891423-72eef68837b29560.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Arraylist.jpg"><br>&emsp;&emsp;唉！作图的天分实在是太差，凑合看吧。上面是自己通过官方文档和其它渠道总结的，目测应该是算比较全面的了，如果有遗漏后边会继续补充。不整理不知道，原来有这么多数据结构框架和衍生版本，不知道是自己的知识储备太差还是平时关注比较少，虽然这里边有一些已经不推荐使用了，但我还是想全面了解一下，毕竟不会有坏处。</p>
+<p>&emsp;&emsp;本来想总结几篇常用的数据结构框架，但看在这么多不认识的，姑且多总结一些吧。这片就对这些进行一些总体的总结，后边单开章节来分别介绍，首先把他们的大致用法和解释标注一下，总结的不好，如果发现有错误我会及时修改。我在写博客的时候有个习惯，非常喜欢用图来表示，总感觉文字太多了会有些难以看见去，并不是说文字描述不好，可能还是自己的文字功底太差导致的吧！废话不多说，下面进行简单总结：</p>
+<p>&emsp;&emsp;关于基础的Set、Map、List、Queue这些数据结构这里不做过多的描述，大部分程序员对这些都是又一些概念的，依稀主要对以实现类在单线程和多线程的使用上进行区分<br>|             | 单线程                                                       | 并发                                                         |<br>| ———– | ———————————————————— | ———————————————————— |<br>| List        | ArrayList ：Java 动态数组  LinkedList：线性数据结构          | CopyOnWriteArrayList：是一个线程安全的ArrayList，做遍历用 <br>Vector：支持线程同步的动态数组 |<br>| Queue/Deque | ArrayDeque：双端队列实现 <br>Stack：标准的后进先出的栈  <br>PriorityQueue：通过二叉小顶堆实现 | ArrayBlockingQueue：数组实现的线程安全的有界的阻塞队列  ConcurrentLinkedDeque / ConcurrentLinkedQueue：非阻塞，无锁，无界 ，线程安全双端操作的队列  <br>DelayQueue：在指定时间才能获取队列元素  LinkedBlockingDeque / LinkedBlockingQueue：可选容量的有界双向链表队列，可设置是否带边界  LinkedTransferQueue：可将元素<code>transfer</code>进行w/o存储  PriorityBlockingQueue：支持优先级的无界阻塞队列  SynchronousQueue：使用<code>Queue</code>接口进行<code>Exchanger</code> |<br>| Map         | HashMap：散列表，存放Key-Value的数据结构<br>EnumMap：Key 可以是Enum类型的对象  Hashtable：基于Dictionary类实现的比较陈旧  IdentityHashMap：严格判断key值是否相等  LinkedHashMap：保持插入顺序  TreeMap：对插入的键进行排序  <br>WeakHashMap：适用于做一些缓存操作 | ConcurrentHashMap：它是HashMap的一个线程安全的、支持高效并发的版本  <br>ConcurrentSkipListMap：一个并发安全, 基于skip list 实现有序存储的Map |<br>| Set         | HashSet：存储元素不可重复，底层基于HashMap <br> EnumSet：专门为Eunm设计的集合类  <br>BitSet：Bit或密集的整数Set  LinkedHashSet：保持Key插入顺序  <br>TreeSet：有序集合 | ConcurrentSkipListSet：排序并发Set  <br>CopyOnWriteArraySet：做遍历用 |</p>
+<p>&emsp;&emsp;上面对这些集合类做了一些总结，几乎每个应用场景都有对应的功能，现在回想起来以前代码写的确实性能欠佳，如果替换成以上的性能估计会提升不少，所以后面尝试对自己的应用做一些数据方面的性能处理。这一篇写到这里，后边会把一些集合类拿出来分析，预计能提升不少的见识。刚开始写博客确实语言组织方面差点，不过相信坚持一段时间之后会有提升的。</p>
+<p>&emsp;&emsp;学习之后，你解决问题的思路和方法是否得到了改变。如果你学习之后和学习之前，思考和行动都一样，那么显然这样的学习是无效的。从现在开始努力，日拱一卒。如果有想一起进步的朋友可以关注微信公众号。</p>
 
     </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2020/04/16/%E4%BD%A0%E5%A5%BD-2020/" rel="prev" title="你好 2020">
+      <i class="fa fa-chevron-left"></i> 你好 2020
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2020/04/16/HashMap-%E5%A4%9A%E7%9F%A5%E5%A4%9A%E7%94%A8/" rel="next" title="HashMap 多知多用">
+      HashMap 多知多用 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
   </div>
-  
-  
-  
-
-  
-
 
 
           </div>
           
+    
+  <div class="comments">
+    <div id="lv-container" data-id="city" data-uid="MTAyMC8zODU3Mi8xNTEwMA=="></div>
+  </div>
+  
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -422,6 +358,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#简介"><span class="nav-number">1.</span> <span class="nav-text">简介</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -615,6 +552,21 @@
     
   </script>
 
+<script>
+NexT.utils.loadComments(document.querySelector('#lv-container'), () => {
+  // window.livereOptions = {
+  //   refer: location.pathname.replace(CONFIG.root, '').replace('index.html', '')
+  // };
+  (function(d, s) {
+    var j, e = d.getElementsByTagName(s)[0];
+    if (typeof LivereTower === 'function') { return; }
+    j = d.createElement(s);
+    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+    j.async = true;
+    e.parentNode.insertBefore(j, e);
+  })(document, 'script');
+});
+</script>
 
 </body>
 </html>
