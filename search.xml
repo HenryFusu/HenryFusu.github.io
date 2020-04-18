@@ -1,26 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Android面试的碎碎念</title>
-    <url>/2020/04/16/Android%E9%9D%A2%E8%AF%95%E7%9A%84%E7%A2%8E%E7%A2%8E%E5%BF%B5/</url>
-    <content><![CDATA[<p>&emsp;&emsp;在今年8月份入职了一家外企，恰逢最近几周公司大规模招聘Android开发，有幸参与了十几场面试，遂有感而发。在其中也从面试官的方面有了一些想法，希望分享给大家。</p>
-<a id="more"></a>
-
-<p>&emsp;&emsp;本来当做面试官对于我来说是一件比较新奇的事，但通过几场面试下来，感觉自己对面试有了更为立体的感觉。希望下面的分享能给大家带来一点点的帮助。以下是正文：<br><img src="https://oss-image-henry.oss-cn-beijing.aliyuncs.com/images/funny2.jpg" alt=""><br>&emsp;&emsp;首先说一下感想，在一个整个的面试过程中其实有几个关键的点，关键的点掌握的好有很大的几率通过面试</p>
-<ul>
-<li>简历<br>&emsp;&emsp;在面试官的眼里，你的第一印象就是简历，简历尽量简洁把自己掌握的关键点描述清楚，最好不超过三页，我就见过一个求职者一共七页简历，在看到第三页的时候已经很难继续往下看了，也就是后边的内容根本不在面试官的视线里。<br>&emsp;&emsp;在个人技能栏目，尽量只写你印象很深或者很有把握的，如果你使用了一个很高深的技术，但是自己说不清楚或根本答不上来，这绝对是一个减分项。可以适当的写一下知名度比较高的开源框架(不过一定要了解一下实现原理，现在已经很少不问原理的了)，这次面试的时候有个求职者个人技能写了满满一篇，让我一度以为遇到大牛了，高兴的手舞足蹈，查了好久的资料，结果面试的时候70%都没有答上来，真是那啥了。<br>&emsp;&emsp;在项目经验这里，建议最好优化成三四个参与度比较高的项目，想想其实你的一个简历写10多个项目，大部分项目的框架和技术都是一样的，真的可以整合成一个集合版，反而会体现项目的深度。另外要对你做过的项目绝对的了解，因为面试有肯能就是从项目开始。<ul>
-<li>表达<br>&emsp;&emsp;有的人说表达没那么重要，这个我要反对一下，好的表达绝对能为自己的面试加分，可以一下提升面试官的好感度。想想一个表达顺畅一个支支吾吾，你会选择哪一个，所以程序员们在提升自己技术的同时，别忘了把自己的表达也锻炼一下。</li>
-<li>Java基础<br>&emsp;&emsp;虽然现在Google 主推kotlin语言，但是现在大部分的面试还是以Java为模板去面试，所以我们掌握Java基础是非常有必要的，是扎实的掌握而不是2个问题下去就不知所云。如果你能掌握基础同时又可以把JVM、类加载机制、多线程锁、设计模式（能熟练使用5中设计模式已经足够面对大多数开发）、还有一些数据结构比如(栈、链表、HashMap)了解清楚，通过面试的几率很大，现在面试HashMap已经不简单的了解一些简单的原理，面试官希望听到更深层的原理，所以在这块下点功夫还是很有用的。</li>
-<li>Android基础<br>&emsp;&emsp;我们做Android开发这是必备的技能，但最近面试和我自己面试的经验来看，现在的Android面试已经很少面试Activity生命周期等这种低级的问题，好多面试官开始喜欢问一些深层次的原理，比如Binder原理、热修复原理、AMS这种相对系统级的原理。因为现在Android开发工程师还是比较饱和的，企业招聘的需求也会随之提高，更多的会招中高级工程师，而这些也算是进阶的必备，掌握了这些，你才能在面试中有更多的筹码。</li>
-<li>第三方库<br>&emsp;&emsp;在项目开发中，我们会使用到很多第三方库，在非常常用的库中，我们一定要找三到四个知名的开源库，阅读它的源码，知道它的原理。比如Glide、okHttp这种，而且要知道和它功能类似的库和它有什么区别，比如Volley和okHttp，因为这些在使用方面实在是太简单了，简单到比Activity的生命周期还省事，所以如果我们只会使用而不了解原理，很难在众多面试者中脱颖而出，很难找到好的工作。如果想往更高级进阶一定要多度源码。</li>
-<li>眼界<br>&emsp;&emsp;程序员在平时一定不能只关注自己做的一些技术，有时间一定要多关注其他的技术，比如有时间看一看Vue，尝试用Vue写一段代码，那么你对mvvm框架也会有更深层的了解。</li>
-</ul>
-</li>
-</ul>
-<p>&emsp;&emsp;第一次一口气写这么多，文笔略差，但好歹也算开始了。本来技术博客想基于10.0系统把Framework这块分享一点知识，但经过几场面试，自己又想写一个基础的东西，因为再复杂的框架也是用基础写出来的。后面会优先分享Java/Android基础，也会自己做一些开源项目，虽然写技术文档有一些晚了，但好歹也算是开始了，如果有问题想询问，或者觉得技术不错的我也可以进行内推。</p>
-]]></content>
-  </entry>
-  <entry>
     <title>HashMap 多知多用</title>
     <url>/2020/04/16/HashMap-%E5%A4%9A%E7%9F%A5%E5%A4%9A%E7%94%A8/</url>
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>&emsp;&emsp;在面试中我面试包括我参见的一些面试一直比较喜欢问HashMap原理，不是其原理有多深奥，是因为HashMap几乎是面试的必问点，然而还有大部分的人不能清楚的描述。觉得有必要写一篇来记录一下，一来希望可以帮助有需要的人，二来让自己加深印象。在写这篇之前我也是把源码看了又看，博客翻了又翻，生怕描述错误，如果大家有发现错误的地方还望指正，另外大牛勿喷。以下进入正题：</p>
@@ -56,19 +36,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>Java集合类框架</title>
-    <url>/2020/04/16/Java%E9%9B%86%E5%90%88%E7%B1%BB%E6%A1%86%E6%9E%B6/</url>
-    <content><![CDATA[<h4 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h4><p>&emsp;&emsp;在平时的开发里我们经常用到集合框架，比如ArrayList、HashMap、HashTable、HashSet，但是你有没有否关注过在某种特殊的场景下是否还有其它功能一样但效率更高、容错率更高的框架呢。其实我们常用的集合框架完全能帮我们解决问题，但作为一个不安分的程序员，在闲下来之后总是想试着分析分析其它的。说干就干，首先我们先要把我们的一些集合框架列出来再分别介绍，一图胜千言：</p>
-<a id="more"></a>
-
-<p><img src="https://oss-image-henry.oss-cn-beijing.aliyuncs.com/images/Arraylist.jpg" alt=""><br>&emsp;&emsp;唉！作图的天分实在是太差，凑合看吧。上面是自己通过官方文档和其它渠道总结的，目测应该是算比较全面的了，如果有遗漏后边会继续补充。不整理不知道，原来有这么多数据结构框架和衍生版本，不知道是自己的知识储备太差还是平时关注比较少，虽然这里边有一些已经不推荐使用了，但我还是想全面了解一下，毕竟不会有坏处。</p>
-<p>&emsp;&emsp;本来想总结几篇常用的数据结构框架，但看在这么多不认识的，姑且多总结一些吧。这片就对这些进行一些总体的总结，后边单开章节来分别介绍，首先把他们的大致用法和解释标注一下，总结的不好，如果发现有错误我会及时修改。我在写博客的时候有个习惯，非常喜欢用图来表示，总感觉文字太多了会有些难以看见去，并不是说文字描述不好，可能还是自己的文字功底太差导致的吧！废话不多说，下面进行简单总结：</p>
-<p>&emsp;&emsp;关于基础的Set、Map、List、Queue这些数据结构这里不做过多的描述，大部分程序员对这些都是又一些概念的，依稀主要对以实现类在单线程和多线程的使用上进行区分<br>|             | 单线程                                                       | 并发                                                         |<br>| ———– | ———————————————————— | ———————————————————— |<br>| List        | ArrayList ：Java 动态数组  LinkedList：线性数据结构          | CopyOnWriteArrayList：是一个线程安全的ArrayList，做遍历用 <br>Vector：支持线程同步的动态数组 |<br>| Queue/Deque | ArrayDeque：双端队列实现 <br>Stack：标准的后进先出的栈  <br>PriorityQueue：通过二叉小顶堆实现 | ArrayBlockingQueue：数组实现的线程安全的有界的阻塞队列  ConcurrentLinkedDeque / ConcurrentLinkedQueue：非阻塞，无锁，无界 ，线程安全双端操作的队列  <br>DelayQueue：在指定时间才能获取队列元素  LinkedBlockingDeque / LinkedBlockingQueue：可选容量的有界双向链表队列，可设置是否带边界  LinkedTransferQueue：可将元素<code>transfer</code>进行w/o存储  PriorityBlockingQueue：支持优先级的无界阻塞队列  SynchronousQueue：使用<code>Queue</code>接口进行<code>Exchanger</code> |<br>| Map         | HashMap：散列表，存放Key-Value的数据结构<br>EnumMap：Key 可以是Enum类型的对象  Hashtable：基于Dictionary类实现的比较陈旧  IdentityHashMap：严格判断key值是否相等  LinkedHashMap：保持插入顺序  TreeMap：对插入的键进行排序  <br>WeakHashMap：适用于做一些缓存操作 | ConcurrentHashMap：它是HashMap的一个线程安全的、支持高效并发的版本  <br>ConcurrentSkipListMap：一个并发安全, 基于skip list 实现有序存储的Map |<br>| Set         | HashSet：存储元素不可重复，底层基于HashMap <br> EnumSet：专门为Eunm设计的集合类  <br>BitSet：Bit或密集的整数Set  LinkedHashSet：保持Key插入顺序  <br>TreeSet：有序集合 | ConcurrentSkipListSet：排序并发Set  <br>CopyOnWriteArraySet：做遍历用 |</p>
-<p>&emsp;&emsp;上面对这些集合类做了一些总结，几乎每个应用场景都有对应的功能，现在回想起来以前代码写的确实性能欠佳，如果替换成以上的性能估计会提升不少，所以后面尝试对自己的应用做一些数据方面的性能处理。这一篇写到这里，后边会把一些集合类拿出来分析，预计能提升不少的见识。刚开始写博客确实语言组织方面差点，不过相信坚持一段时间之后会有提升的。</p>
-<p>&emsp;&emsp;学习之后，你解决问题的思路和方法是否得到了改变。如果你学习之后和学习之前，思考和行动都一样，那么显然这样的学习是无效的。从现在开始努力，日拱一卒。如果有想一起进步的朋友可以关注微信公众号。</p>
-]]></content>
-  </entry>
-  <entry>
     <title>你好 2020</title>
     <url>/2020/04/16/%E4%BD%A0%E5%A5%BD-2020/</url>
     <content><![CDATA[<h3 id="2019回顾"><a href="#2019回顾" class="headerlink" title="2019回顾"></a>2019回顾</h3><p>&emsp;&emsp;从出生到今年已然29岁，等到明年的5月份自己也将步入三十岁，这是一个挺尴尬的年纪；都说30而立30而立，而我却感觉，自己虽然不算太差，但总是离自己的目标还有很长的路要走，也算没立起来吧；以前从不写年终总结的我，终于在夜深人静的晚上，抄气了我还算帅气的Mac电脑，准备写点什么。</p>
@@ -93,7 +60,7 @@
   <entry>
     <title>关于公众号引流</title>
     <url>/2020/04/16/%E5%85%B3%E4%BA%8E%E5%85%AC%E4%BC%97%E5%8F%B7%E5%BC%95%E6%B5%81/</url>
-    <content><![CDATA[<p>&emsp;&emsp;昨天写了一篇<a href="https://mp.weixin.qq.com/s?src=11&timestamp=1586957736&ver=2280&signature=ENUkdKpqxz*qEumCV6qnw25p*cJFeTKRPro1EbwhQqmnnPrWBFrJG8PKMytFFr*VuIbX0*Ur0v5LzpF3jrh0XisRWei1o7zfM1MQrp9zX*zHpJMTYHTNV4LNT8xNU1mH&new=1" target="_blank" rel="noopener">技术人怎么开始写博客和运营公众号</a> , 满心欢喜的放到了各大公共平台平台，准备等着大量的流量涌入，走上人生巅峰…，结果今天晚上回家一看几乎每个平台都只有寥寥的几个，还有的平台甚至一个观看量都没有，这对我来说是一个小小的打击。但这并不会难到我们技术人，试着从技术的原理分析我们的访问量为什么这么低。<a id="more"></a>但是当真正查起来的时候确实有点犯难，因为我毕竟是做Android开发的，对运营这块确实是一窍不通，所以只能硬着头皮这么找了。但今天无意间在一个社群里看到了一个大佬”<a href="http://mp.weixin.qq.com/profile?src=3&timestamp=1586961325&ver=1&signature=He810pyfwvkZwxQ6z2m-5fq9ckxlf8hJZo3dsuR18QDa3b918d3mfsPhTgAPlvy8diVlzGai0VbVwgG-wv1T7Q==" target="_blank" rel="noopener">程序员DD</a>“的解答，跟自己目前的情况有点相似，下面我试着用最通俗的话来分析一下。</p>
+    <content><![CDATA[<p>&emsp;&emsp;昨天写了一篇<a href="https://mp.weixin.qq.com/s?src=11&timestamp=1586957736&ver=2280&signature=ENUkdKpqxz*qEumCV6qnw25p*cJFeTKRPro1EbwhQqmnnPrWBFrJG8PKMytFFr*VuIbX0*Ur0v5LzpF3jrh0XisRWei1o7zfM1MQrp9zX*zHpJMTYHTNV4LNT8xNU1mH&new=1" target="_blank" rel="noopener">技术人怎么开始写博客和运营公众号</a> , 满心欢喜的放到了各大公共流量平台，准备等着大量的流量涌入，走上人生巅峰…，结果今天晚上回家一看几乎每个平台都只有寥寥的几个，还有的平台甚至一个观看量都没有，这对我来说是一个小小的打击。但这并不会难到我们技术人，试着从技术的原理分析我们的访问量为什么这么低。<a id="more"></a>但是当真正查起来的时候确实有点犯难，因为我毕竟是做Android开发的，对运营这块确实是一窍不通，所以只能硬着头皮这么找了。但今天无意间在一个社群里看到了一个大佬”<a href="http://mp.weixin.qq.com/profile?src=3&timestamp=1586961325&ver=1&signature=He810pyfwvkZwxQ6z2m-5fq9ckxlf8hJZo3dsuR18QDa3b918d3mfsPhTgAPlvy8diVlzGai0VbVwgG-wv1T7Q==" target="_blank" rel="noopener">程序员DD</a>“的解答，跟自己目前的情况有点相似，下面我试着用最通俗的话来分析一下。</p>
 <p>&emsp;&emsp;文中大意是构建自己的漏斗模型，这个模型本来是广泛应用于网站和APP用户行为分析的流量监控、CRM系统、SEO优化和一些产品的应用上边，在公众号引流上我还是第一次见到，并且我也把这种方法Google了好几遍，几乎没有使用这种方式的，那这对我们有什么优势呢，下面通过一张图来表示。</p>
 <p><img src="https://oss-image-henry.oss-cn-beijing.aliyuncs.com/images/funnel.jpg" alt=""></p>
 <ol>
@@ -126,6 +93,26 @@
 ]]></content>
   </entry>
   <entry>
+    <title>Android面试的碎碎念</title>
+    <url>/2020/04/16/Android%E9%9D%A2%E8%AF%95%E7%9A%84%E7%A2%8E%E7%A2%8E%E5%BF%B5/</url>
+    <content><![CDATA[<p>&emsp;&emsp;在今年8月份入职了一家外企，恰逢最近几周公司大规模招聘Android开发，有幸参与了十几场面试，遂有感而发。在其中也从面试官的方面有了一些想法，希望分享给大家。</p>
+<a id="more"></a>
+
+<p>&emsp;&emsp;本来当做面试官对于我来说是一件比较新奇的事，但通过几场面试下来，感觉自己对面试有了更为立体的感觉。希望下面的分享能给大家带来一点点的帮助。以下是正文：<br><img src="https://oss-image-henry.oss-cn-beijing.aliyuncs.com/images/funny2.jpg" alt=""><br>&emsp;&emsp;首先说一下感想，在一个整个的面试过程中其实有几个关键的点，关键的点掌握的好有很大的几率通过面试</p>
+<ul>
+<li>简历<br>&emsp;&emsp;在面试官的眼里，你的第一印象就是简历，简历尽量简洁把自己掌握的关键点描述清楚，最好不超过三页，我就见过一个求职者一共七页简历，在看到第三页的时候已经很难继续往下看了，也就是后边的内容根本不在面试官的视线里。<br>&emsp;&emsp;在个人技能栏目，尽量只写你印象很深或者很有把握的，如果你使用了一个很高深的技术，但是自己说不清楚或根本答不上来，这绝对是一个减分项。可以适当的写一下知名度比较高的开源框架(不过一定要了解一下实现原理，现在已经很少不问原理的了)，这次面试的时候有个求职者个人技能写了满满一篇，让我一度以为遇到大牛了，高兴的手舞足蹈，查了好久的资料，结果面试的时候70%都没有答上来，真是那啥了。<br>&emsp;&emsp;在项目经验这里，建议最好优化成三四个参与度比较高的项目，想想其实你的一个简历写10多个项目，大部分项目的框架和技术都是一样的，真的可以整合成一个集合版，反而会体现项目的深度。另外要对你做过的项目绝对的了解，因为面试有肯能就是从项目开始。<ul>
+<li>表达<br>&emsp;&emsp;有的人说表达没那么重要，这个我要反对一下，好的表达绝对能为自己的面试加分，可以一下提升面试官的好感度。想想一个表达顺畅一个支支吾吾，你会选择哪一个，所以程序员们在提升自己技术的同时，别忘了把自己的表达也锻炼一下。</li>
+<li>Java基础<br>&emsp;&emsp;虽然现在Google 主推kotlin语言，但是现在大部分的面试还是以Java为模板去面试，所以我们掌握Java基础是非常有必要的，是扎实的掌握而不是2个问题下去就不知所云。如果你能掌握基础同时又可以把JVM、类加载机制、多线程锁、设计模式（能熟练使用5中设计模式已经足够面对大多数开发）、还有一些数据结构比如(栈、链表、HashMap)了解清楚，通过面试的几率很大，现在面试HashMap已经不简单的了解一些简单的原理，面试官希望听到更深层的原理，所以在这块下点功夫还是很有用的。</li>
+<li>Android基础<br>&emsp;&emsp;我们做Android开发这是必备的技能，但最近面试和我自己面试的经验来看，现在的Android面试已经很少面试Activity生命周期等这种低级的问题，好多面试官开始喜欢问一些深层次的原理，比如Binder原理、热修复原理、AMS这种相对系统级的原理。因为现在Android开发工程师还是比较饱和的，企业招聘的需求也会随之提高，更多的会招中高级工程师，而这些也算是进阶的必备，掌握了这些，你才能在面试中有更多的筹码。</li>
+<li>第三方库<br>&emsp;&emsp;在项目开发中，我们会使用到很多第三方库，在非常常用的库中，我们一定要找三到四个知名的开源库，阅读它的源码，知道它的原理。比如Glide、okHttp这种，而且要知道和它功能类似的库和它有什么区别，比如Volley和okHttp，因为这些在使用方面实在是太简单了，简单到比Activity的生命周期还省事，所以如果我们只会使用而不了解原理，很难在众多面试者中脱颖而出，很难找到好的工作。如果想往更高级进阶一定要多度源码。</li>
+<li>眼界<br>&emsp;&emsp;程序员在平时一定不能只关注自己做的一些技术，有时间一定要多关注其他的技术，比如有时间看一看Vue，尝试用Vue写一段代码，那么你对mvvm框架也会有更深层的了解。</li>
+</ul>
+</li>
+</ul>
+<p>&emsp;&emsp;第一次一口气写这么多，文笔略差，但好歹也算开始了。本来技术博客想基于10.0系统把Framework这块分享一点知识，但经过几场面试，自己又想写一个基础的东西，因为再复杂的框架也是用基础写出来的。后面会优先分享Java/Android基础，也会自己做一些开源项目，虽然写技术文档有一些晚了，但好歹也算是开始了，如果有问题想询问，或者觉得技术不错的我也可以进行内推。</p>
+]]></content>
+  </entry>
+  <entry>
     <title>初来乍到,请多指教.</title>
     <url>/2020/04/16/%E5%88%9D%E6%9D%A5%E4%B9%8D%E5%88%B0-%E8%AF%B7%E5%A4%9A%E6%8C%87%E6%95%99/</url>
     <content><![CDATA[<p>&emsp;&emsp;怀着无比忐忑和矛盾的心情开始了自己的第一篇博客，写博客这件事规划了接近两年，最近才算真正开始投入,算了算自己这算是丢失的两年。好的方向是自己终于迈出这一步。希望用倒逼输出的方式让自己把写博客这件事坚持下去，锻炼自己的写作能力，思维逻辑能力。</p>
@@ -153,5 +140,18 @@
 <li>还有就是每天都看大量的技术文档，一定要看英文的，看不懂也要看，一段时间之后你会发现你的英语长进非常大，而且理解的更透彻了。不得不说技术文章真的是太难写了，你要考虑各个方面，所以这个也不能着急，如果想写好就从最简单的去写，不要觉得简单就没有技术含量，其实所有的高级技术都是用这些基础搭建起来的，试着从简单入手一点点深入，后面我会慢慢的从基础的写起。写了这么多也不知如何收笔，所以就到这里吧 , 文采有限请谅解。</li>
 </ul>
 <h5 id="如果你也想在工作之外搞一个小副业，希望可以一同进步，当然也可以关注我的公众号，非常希望能一起冲破自己的瓶颈，在进步的路上不孤单。最后我的公众号”Henry扶苏”。"><a href="#如果你也想在工作之外搞一个小副业，希望可以一同进步，当然也可以关注我的公众号，非常希望能一起冲破自己的瓶颈，在进步的路上不孤单。最后我的公众号”Henry扶苏”。" class="headerlink" title="如果你也想在工作之外搞一个小副业，希望可以一同进步，当然也可以关注我的公众号，非常希望能一起冲破自己的瓶颈，在进步的路上不孤单。最后我的公众号”Henry扶苏”。"></a>如果你也想在工作之外搞一个小副业，希望可以一同进步，当然也可以关注我的公众号，非常希望能一起冲破自己的瓶颈，在进步的路上不孤单。最后我的公众号”Henry扶苏”。</h5>]]></content>
+  </entry>
+  <entry>
+    <title>Java集合类框架</title>
+    <url>/2020/04/16/Java%E9%9B%86%E5%90%88%E7%B1%BB%E6%A1%86%E6%9E%B6/</url>
+    <content><![CDATA[<h4 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h4><p>&emsp;&emsp;在平时的开发里我们经常用到集合框架，比如ArrayList、HashMap、HashTable、HashSet，但是你有没有否关注过在某种特殊的场景下是否还有其它功能一样但效率更高、容错率更高的框架呢。其实我们常用的集合框架完全能帮我们解决问题，但作为一个不安分的程序员，在闲下来之后总是想试着分析分析其它的。说干就干，首先我们先要把我们的一些集合框架列出来再分别介绍，一图胜千言：</p>
+<a id="more"></a>
+
+<p><img src="https://oss-image-henry.oss-cn-beijing.aliyuncs.com/images/Arraylist.jpg" alt=""><br>&emsp;&emsp;唉！作图的天分实在是太差，凑合看吧。上面是自己通过官方文档和其它渠道总结的，目测应该是算比较全面的了，如果有遗漏后边会继续补充。不整理不知道，原来有这么多数据结构框架和衍生版本，不知道是自己的知识储备太差还是平时关注比较少，虽然这里边有一些已经不推荐使用了，但我还是想全面了解一下，毕竟不会有坏处。</p>
+<p>&emsp;&emsp;本来想总结几篇常用的数据结构框架，但看在这么多不认识的，姑且多总结一些吧。这片就对这些进行一些总体的总结，后边单开章节来分别介绍，首先把他们的大致用法和解释标注一下，总结的不好，如果发现有错误我会及时修改。我在写博客的时候有个习惯，非常喜欢用图来表示，总感觉文字太多了会有些难以看见去，并不是说文字描述不好，可能还是自己的文字功底太差导致的吧！废话不多说，下面进行简单总结：</p>
+<p>&emsp;&emsp;关于基础的Set、Map、List、Queue这些数据结构这里不做过多的描述，大部分程序员对这些都是又一些概念的，依稀主要对以实现类在单线程和多线程的使用上进行区分<br>|             | 单线程                                                       | 并发                                                         |<br>| ———– | ———————————————————— | ———————————————————— |<br>| List        | ArrayList ：Java 动态数组  LinkedList：线性数据结构          | CopyOnWriteArrayList：是一个线程安全的ArrayList，做遍历用 <br>Vector：支持线程同步的动态数组 |<br>| Queue/Deque | ArrayDeque：双端队列实现 <br>Stack：标准的后进先出的栈  <br>PriorityQueue：通过二叉小顶堆实现 | ArrayBlockingQueue：数组实现的线程安全的有界的阻塞队列  ConcurrentLinkedDeque / ConcurrentLinkedQueue：非阻塞，无锁，无界 ，线程安全双端操作的队列  <br>DelayQueue：在指定时间才能获取队列元素  LinkedBlockingDeque / LinkedBlockingQueue：可选容量的有界双向链表队列，可设置是否带边界  LinkedTransferQueue：可将元素<code>transfer</code>进行w/o存储  PriorityBlockingQueue：支持优先级的无界阻塞队列  SynchronousQueue：使用<code>Queue</code>接口进行<code>Exchanger</code> |<br>| Map         | HashMap：散列表，存放Key-Value的数据结构<br>EnumMap：Key 可以是Enum类型的对象  Hashtable：基于Dictionary类实现的比较陈旧  IdentityHashMap：严格判断key值是否相等  LinkedHashMap：保持插入顺序  TreeMap：对插入的键进行排序  <br>WeakHashMap：适用于做一些缓存操作 | ConcurrentHashMap：它是HashMap的一个线程安全的、支持高效并发的版本  <br>ConcurrentSkipListMap：一个并发安全, 基于skip list 实现有序存储的Map |<br>| Set         | HashSet：存储元素不可重复，底层基于HashMap <br> EnumSet：专门为Eunm设计的集合类  <br>BitSet：Bit或密集的整数Set  LinkedHashSet：保持Key插入顺序  <br>TreeSet：有序集合 | ConcurrentSkipListSet：排序并发Set  <br>CopyOnWriteArraySet：做遍历用 |</p>
+<p>&emsp;&emsp;上面对这些集合类做了一些总结，几乎每个应用场景都有对应的功能，现在回想起来以前代码写的确实性能欠佳，如果替换成以上的性能估计会提升不少，所以后面尝试对自己的应用做一些数据方面的性能处理。这一篇写到这里，后边会把一些集合类拿出来分析，预计能提升不少的见识。刚开始写博客确实语言组织方面差点，不过相信坚持一段时间之后会有提升的。</p>
+<p>&emsp;&emsp;学习之后，你解决问题的思路和方法是否得到了改变。如果你学习之后和学习之前，思考和行动都一样，那么显然这样的学习是无效的。从现在开始努力，日拱一卒。如果有想一起进步的朋友可以关注微信公众号。</p>
+]]></content>
   </entry>
 </search>
