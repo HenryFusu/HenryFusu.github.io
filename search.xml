@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Android面试的碎碎念</title>
+    <url>/2020/04/16/Android%E9%9D%A2%E8%AF%95%E7%9A%84%E7%A2%8E%E7%A2%8E%E5%BF%B5/</url>
+    <content><![CDATA[<p>&emsp;&emsp;在今年8月份入职了一家外企，恰逢最近几周公司大规模招聘Android开发，有幸参与了十几场面试，遂有感而发。在其中也从面试官的方面有了一些想法，希望分享给大家。</p>
+<a id="more"></a>
+
+<p>&emsp;&emsp;本来当做面试官对于我来说是一件比较新奇的事，但通过几场面试下来，感觉自己对面试有了更为立体的感觉。希望下面的分享能给大家带来一点点的帮助。以下是正文：<br><img src="https://oss-image-henry.oss-cn-beijing.aliyuncs.com/images/funny2.jpg" alt=""><br>&emsp;&emsp;首先说一下感想，在一个整个的面试过程中其实有几个关键的点，关键的点掌握的好有很大的几率通过面试</p>
+<ul>
+<li>简历<br>&emsp;&emsp;在面试官的眼里，你的第一印象就是简历，简历尽量简洁把自己掌握的关键点描述清楚，最好不超过三页，我就见过一个求职者一共七页简历，在看到第三页的时候已经很难继续往下看了，也就是后边的内容根本不在面试官的视线里。<br>&emsp;&emsp;在个人技能栏目，尽量只写你印象很深或者很有把握的，如果你使用了一个很高深的技术，但是自己说不清楚或根本答不上来，这绝对是一个减分项。可以适当的写一下知名度比较高的开源框架(不过一定要了解一下实现原理，现在已经很少不问原理的了)，这次面试的时候有个求职者个人技能写了满满一篇，让我一度以为遇到大牛了，高兴的手舞足蹈，查了好久的资料，结果面试的时候70%都没有答上来，真是那啥了。<br>&emsp;&emsp;在项目经验这里，建议最好优化成三四个参与度比较高的项目，想想其实你的一个简历写10多个项目，大部分项目的框架和技术都是一样的，真的可以整合成一个集合版，反而会体现项目的深度。另外要对你做过的项目绝对的了解，因为面试有肯能就是从项目开始。<ul>
+<li>表达<br>&emsp;&emsp;有的人说表达没那么重要，这个我要反对一下，好的表达绝对能为自己的面试加分，可以一下提升面试官的好感度。想想一个表达顺畅一个支支吾吾，你会选择哪一个，所以程序员们在提升自己技术的同时，别忘了把自己的表达也锻炼一下。</li>
+<li>Java基础<br>&emsp;&emsp;虽然现在Google 主推kotlin语言，但是现在大部分的面试还是以Java为模板去面试，所以我们掌握Java基础是非常有必要的，是扎实的掌握而不是2个问题下去就不知所云。如果你能掌握基础同时又可以把JVM、类加载机制、多线程锁、设计模式（能熟练使用5中设计模式已经足够面对大多数开发）、还有一些数据结构比如(栈、链表、HashMap)了解清楚，通过面试的几率很大，现在面试HashMap已经不简单的了解一些简单的原理，面试官希望听到更深层的原理，所以在这块下点功夫还是很有用的。</li>
+<li>Android基础<br>&emsp;&emsp;我们做Android开发这是必备的技能，但最近面试和我自己面试的经验来看，现在的Android面试已经很少面试Activity生命周期等这种低级的问题，好多面试官开始喜欢问一些深层次的原理，比如Binder原理、热修复原理、AMS这种相对系统级的原理。因为现在Android开发工程师还是比较饱和的，企业招聘的需求也会随之提高，更多的会招中高级工程师，而这些也算是进阶的必备，掌握了这些，你才能在面试中有更多的筹码。</li>
+<li>第三方库<br>&emsp;&emsp;在项目开发中，我们会使用到很多第三方库，在非常常用的库中，我们一定要找三到四个知名的开源库，阅读它的源码，知道它的原理。比如Glide、okHttp这种，而且要知道和它功能类似的库和它有什么区别，比如Volley和okHttp，因为这些在使用方面实在是太简单了，简单到比Activity的生命周期还省事，所以如果我们只会使用而不了解原理，很难在众多面试者中脱颖而出，很难找到好的工作。如果想往更高级进阶一定要多度源码。</li>
+<li>眼界<br>&emsp;&emsp;程序员在平时一定不能只关注自己做的一些技术，有时间一定要多关注其他的技术，比如有时间看一看Vue，尝试用Vue写一段代码，那么你对mvvm框架也会有更深层的了解。</li>
+</ul>
+</li>
+</ul>
+<p>&emsp;&emsp;第一次一口气写这么多，文笔略差，但好歹也算开始了。本来技术博客想基于10.0系统把Framework这块分享一点知识，但经过几场面试，自己又想写一个基础的东西，因为再复杂的框架也是用基础写出来的。后面会优先分享Java/Android基础，也会自己做一些开源项目，虽然写技术文档有一些晚了，但好歹也算是开始了，如果有问题想询问，或者觉得技术不错的我也可以进行内推。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>HashMap 多知多用</title>
+    <url>/2020/04/16/HashMap-%E5%A4%9A%E7%9F%A5%E5%A4%9A%E7%94%A8/</url>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>&emsp;&emsp;在面试中我面试包括我参见的一些面试一直比较喜欢问HashMap原理，不是其原理有多深奥，是因为HashMap几乎是面试的必问点，然而还有大部分的人不能清楚的描述。觉得有必要写一篇来记录一下，一来希望可以帮助有需要的人，二来让自己加深印象。在写这篇之前我也是把源码看了又看，博客翻了又翻，生怕描述错误，如果大家有发现错误的地方还望指正，另外大牛勿喷。以下进入正题：</p>
+<a id="more"></a>
+
+<h3 id="HashMap-是什么？"><a href="#HashMap-是什么？" class="headerlink" title="HashMap 是什么？"></a>HashMap 是什么？</h3><p>&emsp;&emsp;这是百度百科给的定义：基于<a href="https://baike.baidu.com/item/%E5%93%88%E5%B8%8C%E8%A1%A8/5981869" target="_blank" rel="noopener">哈希表</a>的 Map 接口的实现。此实现提供所有可选的映射操作，并允许使用 null 值和 null 键，特别是它不保证该顺序恒久不变。通俗的讲，其实HashMap如何有效的存、取、键值对。</p>
+<h3 id="为什么面试喜欢问HashMap？"><a href="#为什么面试喜欢问HashMap？" class="headerlink" title="为什么面试喜欢问HashMap？"></a>为什么面试喜欢问HashMap？</h3><p>&emsp;&emsp;现在Java开发面试、Android开发面试，大家好像都喜欢问HaspMap的实现原理，我曾经遇到过一个面试，面试就问了一个HaspMap，从头到尾面了接近30分钟，然后我就被淘汰了…。其实好多同事也会问，HashMap有什么可聊的，开发中直接使用就可以了，如果要用到的时候直接去网上一百度不是都有吗？但是面试了很多候选人，就算在面试前告诉他们会问到HashMap，还是有大部分人挂在这，这其中涉及对数据结构的不理解，对策略的不理解。个人感觉深入的问其原理无非是想从一个点开始，逐渐打开你的知识体系，了解你对基础数据结构、策略的掌握程度，由点及面储备知识的广度，从而更能考验候选人的能力。</p>
+<h3 id="怎样表示一个键值对？"><a href="#怎样表示一个键值对？" class="headerlink" title="怎样表示一个键值对？"></a>怎样表示一个键值对？</h3><p>&emsp;&emsp;其实表示键值对非常简单，在Java的知识体系中声明一个类即可，如下：这个类就可以代表键值对，包含两个属性 K 和 V。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">static class Node&lt;K,V&gt; &#123;</span><br><span class="line">        final K key;</span><br><span class="line">        V value;</span><br><span class="line"> &#125;</span><br></pre></td></tr></table></figure>
+
+<p>&emsp;&emsp;只有一个类还是不够的，根据Java的面向设计规则，需要一个接口来描述一些动作，在Map接口中还提供了一个内部接口 Entry&lt;K , V&gt;,它表示Map中的一个实体，接口中有 getKey() , getValue() 方法。所以在HashMap中上面这类定义为:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">static class Node&lt;K,V&gt; implements Map.Entry&lt;K,V&gt; &#123;</span><br><span class="line">        final int hash;</span><br><span class="line">        final K key;</span><br><span class="line">        V value;</span><br><span class="line">        Node&lt;K,V&gt; next;</span><br><span class="line"> &#125;</span><br></pre></td></tr></table></figure>
+
+<p>&emsp;&emsp;下面是Entry接口：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">interface Entry&lt;K, V&gt; &#123;</span><br><span class="line"></span><br><span class="line">        K getKey();</span><br><span class="line">        V getValue();</span><br><span class="line"> &#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="K-V键值对在HashMap中是如何存储的？"><a href="#K-V键值对在HashMap中是如何存储的？" class="headerlink" title="K-V键值对在HashMap中是如何存储的？"></a>K-V键值对在HashMap中是如何存储的？</h3><p>&emsp;&emsp;在Java中，最基础的存储结构就是两种，一种是数组，另一种是引用，这两个存储结构可以构造所有的数据结构，在Java1.8以前采用数据+链表，在1.8以后采用数组+链表+红黑树的方式构成的。HashMap本质上是一种叫做”链表散列”的数据结构，也就是我们通常所说的数组和链表，关于数组和链表的优缺点其实大家已经非常了解了。</p>
+<ul>
+<li>数组优点：使用方便，查询效率比链表高，内存一般为连续内存。缺点：插入和删除的性能差</li>
+<li>链表优点：可动态添加删除 大小可变，插入和删除性能高。缺点：只能通过顺次指针访问，查询效率低</li>
+<li>红黑树的描述请自行参考，至于为什么选用红黑树，网上是这么解释的：<br>因为Map中桶的元素初始化是链表保存的，其查找性能是O(n)，而树结构能将查找性能提升到O(log(n))。当链表长度很小的时候，即使遍历，速度也非常快，但是当链表长度不断变长，肯定会对查询性能有一定的影响，所以才需要转成树。<br><img src="https://oss-image-henry.oss-cn-beijing.aliyuncs.com/images/hashmap.jpg" alt=""></li>
+</ul>
+<p>&emsp;&emsp;在使用中到底会选用哪种方式来存储呢？查找、插入、删除的场景在实际的开发中都会用到，其实在使用的时候考虑到查找的需求会比较多，因为可以直接用下标定位到数组存储的位置，所以HashMap采用的数组存储的方法。下面截取了一段。可以看到确实是使用了数组进行存储。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">final V putVal(int hash, K key, V value, boolean onlyIfAbsent,</span><br><span class="line">                   boolean evict) &#123;</span><br><span class="line">        Node&lt;K,V&gt;[] tab; Node&lt;K,V&gt; p; int n, i;</span><br><span class="line">        if ((tab &#x3D; table) &#x3D;&#x3D; null || (n &#x3D; tab.length) &#x3D;&#x3D; 0)</span><br><span class="line">            n &#x3D; (tab &#x3D; resize()).length;</span><br><span class="line">        if ((p &#x3D; tab[i &#x3D; (n - 1) &amp; hash]) &#x3D;&#x3D; null)</span><br><span class="line">            tab[i] &#x3D; newNode(hash, key, value, null);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>&emsp;&emsp;上面说到，以数组的形式来存储key-value对象，那在HashMap中是怎样确定数组索引的位置的呢？</p>
+<ul>
+<li>第一步:对Key值做Hash运算<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">static final int hash(Object key) &#123;</span><br><span class="line">        int h;</span><br><span class="line">        return (key &#x3D;&#x3D; null) ? 0 : (h &#x3D; key.hashCode()) ^ (h &gt;&gt;&gt; 16);</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure></li>
+<li>第二步：对<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">final V putVal(int hash, K key, V value, boolean onlyIfAbsent,</span><br><span class="line">                  boolean evict) &#123;</span><br><span class="line">       Node&lt;K,V&gt;[] tab; Node&lt;K,V&gt; p; int n, i;</span><br><span class="line">     &#x2F;*table就是数组中的索引，如果为null或0就初始化*&#x2F;</span><br><span class="line">       if ((tab &#x3D; table) &#x3D;&#x3D; null || (n &#x3D; tab.length) &#x3D;&#x3D; 0)</span><br><span class="line">           n &#x3D; (tab &#x3D; resize()).length;</span><br><span class="line">     &#x2F;*根据计算的下标，如果有值则直接覆盖，如果没有值则直接插入，n是一个2的幂*&#x2F;</span><br><span class="line">       if ((p &#x3D; tab[i &#x3D; (n - 1) &amp; hash]) &#x3D;&#x3D; null)</span><br><span class="line">           tab[i] &#x3D; newNode(hash, key, value, null);</span><br><span class="line">       else &#123;</span><br><span class="line">           Node&lt;K,V&gt; e; K k;</span><br><span class="line">         &#x2F;*到这里说明发生了碰撞，这个时候就会进行碰撞处理*&#x2F;</span><br><span class="line">           if (p.hash &#x3D;&#x3D; hash &amp;&amp;</span><br><span class="line">               ((k &#x3D; p.key) &#x3D;&#x3D; key || (key !&#x3D; null &amp;&amp; key.equals(k))))</span><br><span class="line">               e &#x3D; p;</span><br><span class="line">           &#x2F;*如果节点属于树，说明碰撞程度已经超过8个了，就转为红黑树来处理*&#x2F;</span><br><span class="line">           else if (p instanceof TreeNode)</span><br><span class="line">               e &#x3D; ((TreeNode&lt;K,V&gt;)p).putTreeVal(this, tab, hash, key, value);</span><br><span class="line">           else &#123;</span><br><span class="line">               for (int binCount &#x3D; 0; ; ++binCount) &#123;</span><br><span class="line">                   if ((e &#x3D; p.next) &#x3D;&#x3D; null) &#123;</span><br><span class="line">                       p.next &#x3D; newNode(hash, key, value, null);</span><br><span class="line">                   &#x2F;*如果大于了链表碰撞预设大小，判断是扩容还是专用红黑树了*&#x2F;</span><br><span class="line">                       if (binCount &gt;&#x3D; TREEIFY_THRESHOLD - 1) &#x2F;&#x2F; -1 for 1st</span><br><span class="line">                           treeifyBin(tab, hash);</span><br><span class="line">                       break;</span><br><span class="line">                   &#125;</span><br><span class="line">                   &#x2F;*碰撞的key相等，这时会新老节点替换*&#x2F;</span><br><span class="line">                   if (e.hash &#x3D;&#x3D; hash &amp;&amp;</span><br><span class="line">                       ((k &#x3D; e.key) &#x3D;&#x3D; key || (key !&#x3D; null &amp;&amp; key.equals(k))))</span><br><span class="line">                       break;</span><br><span class="line">                   p &#x3D; e;</span><br><span class="line">               &#125;</span><br><span class="line">           &#125;</span><br><span class="line">           if (e !&#x3D; null) &#123; &#x2F;&#x2F; existing mapping for key</span><br><span class="line">               V oldValue &#x3D; e.value;</span><br><span class="line">               if (!onlyIfAbsent || oldValue &#x3D;&#x3D; null)</span><br><span class="line">                   e.value &#x3D; value;</span><br><span class="line">               afterNodeAccess(e);</span><br><span class="line">               return oldValue;</span><br><span class="line">           &#125;</span><br><span class="line">       &#125;</span><br><span class="line">       ++modCount;</span><br><span class="line">       &#x2F;* 超过了预定的值，这时候就需要扩容了*&#x2F;</span><br><span class="line">       if (++size &gt; threshold)</span><br><span class="line">           resize();</span><br><span class="line">       afterNodeInsertion(evict);</span><br><span class="line">       return null;</span><br><span class="line">   &#125;</span><br></pre></td></tr></table></figure>
+当然后边还有插入红黑树的操作，这里不做分析，有兴趣请查看putTreeVal()这个函数。<h3 id="java中是怎样处理Hash冲突的"><a href="#java中是怎样处理Hash冲突的" class="headerlink" title="java中是怎样处理Hash冲突的"></a>java中是怎样处理Hash冲突的</h3>下面有一个拓展阅读我觉得讲的特别详细<a href="https://www.jianshu.com/p/4d3cb99d7580" target="_blank" rel="noopener">Hash冲突</a><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2>HashMap设计的初衷是希望可以存储一组键值对，并且可以快速的查找</li>
+<li>在快速查找上，HashMap在设计上使用数组实现，利用数组查找索引速度快的优势</li>
+<li>在数组的存储上，使用了Object的Hash算法，通过Hash算法对Key值进行计算，然后对数组长度进行取&amp;运算，获取数组最终的索引。虽然进行复杂的计算，但还是会有Hash冲突，为了解决Hash冲突，设计者又设计了链表地址法，冲突之后转换为链表存储。那么在数据量比较大或者极端的时候，冲突的链表会越来越大，这个时候设计者为了解决性能问题，在链表大于8的时候把链表转换为红黑树，将o（n）复杂度的提升至o(log n)。<br><img src="https://oss-image-henry.oss-cn-beijing.aliyuncs.com/images/relax.jpg" alt=""></li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>Java集合类框架</title>
+    <url>/2020/04/16/Java%E9%9B%86%E5%90%88%E7%B1%BB%E6%A1%86%E6%9E%B6/</url>
+    <content><![CDATA[<h4 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h4><p>&emsp;&emsp;在平时的开发里我们经常用到集合框架，比如ArrayList、HashMap、HashTable、HashSet，但是你有没有否关注过在某种特殊的场景下是否还有其它功能一样但效率更高、容错率更高的框架呢。其实我们常用的集合框架完全能帮我们解决问题，但作为一个不安分的程序员，在闲下来之后总是想试着分析分析其它的。说干就干，首先我们先要把我们的一些集合框架列出来再分别介绍，一图胜千言：</p>
+<a id="more"></a>
+
+<p><img src="https://oss-image-henry.oss-cn-beijing.aliyuncs.com/images/Arraylist.jpg" alt=""><br>&emsp;&emsp;唉！作图的天分实在是太差，凑合看吧。上面是自己通过官方文档和其它渠道总结的，目测应该是算比较全面的了，如果有遗漏后边会继续补充。不整理不知道，原来有这么多数据结构框架和衍生版本，不知道是自己的知识储备太差还是平时关注比较少，虽然这里边有一些已经不推荐使用了，但我还是想全面了解一下，毕竟不会有坏处。</p>
+<p>&emsp;&emsp;本来想总结几篇常用的数据结构框架，但看在这么多不认识的，姑且多总结一些吧。这片就对这些进行一些总体的总结，后边单开章节来分别介绍，首先把他们的大致用法和解释标注一下，总结的不好，如果发现有错误我会及时修改。我在写博客的时候有个习惯，非常喜欢用图来表示，总感觉文字太多了会有些难以看见去，并不是说文字描述不好，可能还是自己的文字功底太差导致的吧！废话不多说，下面进行简单总结：</p>
+<p>&emsp;&emsp;关于基础的Set、Map、List、Queue这些数据结构这里不做过多的描述，大部分程序员对这些都是又一些概念的，依稀主要对以实现类在单线程和多线程的使用上进行区分<br>|             | 单线程                                                       | 并发                                                         |<br>| ———– | ———————————————————— | ———————————————————— |<br>| List        | ArrayList ：Java 动态数组  LinkedList：线性数据结构          | CopyOnWriteArrayList：是一个线程安全的ArrayList，做遍历用 <br>Vector：支持线程同步的动态数组 |<br>| Queue/Deque | ArrayDeque：双端队列实现 <br>Stack：标准的后进先出的栈  <br>PriorityQueue：通过二叉小顶堆实现 | ArrayBlockingQueue：数组实现的线程安全的有界的阻塞队列  ConcurrentLinkedDeque / ConcurrentLinkedQueue：非阻塞，无锁，无界 ，线程安全双端操作的队列  <br>DelayQueue：在指定时间才能获取队列元素  LinkedBlockingDeque / LinkedBlockingQueue：可选容量的有界双向链表队列，可设置是否带边界  LinkedTransferQueue：可将元素<code>transfer</code>进行w/o存储  PriorityBlockingQueue：支持优先级的无界阻塞队列  SynchronousQueue：使用<code>Queue</code>接口进行<code>Exchanger</code> |<br>| Map         | HashMap：散列表，存放Key-Value的数据结构<br>EnumMap：Key 可以是Enum类型的对象  Hashtable：基于Dictionary类实现的比较陈旧  IdentityHashMap：严格判断key值是否相等  LinkedHashMap：保持插入顺序  TreeMap：对插入的键进行排序  <br>WeakHashMap：适用于做一些缓存操作 | ConcurrentHashMap：它是HashMap的一个线程安全的、支持高效并发的版本  <br>ConcurrentSkipListMap：一个并发安全, 基于skip list 实现有序存储的Map |<br>| Set         | HashSet：存储元素不可重复，底层基于HashMap <br> EnumSet：专门为Eunm设计的集合类  <br>BitSet：Bit或密集的整数Set  LinkedHashSet：保持Key插入顺序  <br>TreeSet：有序集合 | ConcurrentSkipListSet：排序并发Set  <br>CopyOnWriteArraySet：做遍历用 |</p>
+<p>&emsp;&emsp;上面对这些集合类做了一些总结，几乎每个应用场景都有对应的功能，现在回想起来以前代码写的确实性能欠佳，如果替换成以上的性能估计会提升不少，所以后面尝试对自己的应用做一些数据方面的性能处理。这一篇写到这里，后边会把一些集合类拿出来分析，预计能提升不少的见识。刚开始写博客确实语言组织方面差点，不过相信坚持一段时间之后会有提升的。</p>
+<p>&emsp;&emsp;学习之后，你解决问题的思路和方法是否得到了改变。如果你学习之后和学习之前，思考和行动都一样，那么显然这样的学习是无效的。从现在开始努力，日拱一卒。如果有想一起进步的朋友可以关注微信公众号。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>你好 2020</title>
+    <url>/2020/04/16/%E4%BD%A0%E5%A5%BD-2020/</url>
+    <content><![CDATA[<h3 id="2019回顾"><a href="#2019回顾" class="headerlink" title="2019回顾"></a>2019回顾</h3><p>&emsp;&emsp;从出生到今年已然29岁，等到明年的5月份自己也将步入三十岁，这是一个挺尴尬的年纪；都说30而立30而立，而我却感觉，自己虽然不算太差，但总是离自己的目标还有很长的路要走，也算没立起来吧；以前从不写年终总结的我，终于在夜深人静的晚上，抄气了我还算帅气的Mac电脑，准备写点什么。</p>
+<a id="more"></a>
+
+<p>&emsp;&emsp;其实作为理科生的我，文笔实在是太差了，差到啥程度呢，这篇文章我憋了一周才开始形成初稿。为什么会反反复复呢，是因为对自己不熟悉领域的不确定，还有程序员那桀骜不驯的洁癖，总想一写就能出手成章；但现实是残酷的，这种想法就像鸡屁股栓绳，扯蛋一样。所以后面的文章没有逻辑。我越来越相信，创造美好的代价是：努力、失望以及毅力。首先是疼痛，然后才是欢乐。<br><img src="https://oss-image-henry.oss-cn-beijing.aliyuncs.com/images/happy.gif" alt=""></p>
+<p>&emsp;&emsp;以下是正文：从好坏两方面来回顾自己的2019</p>
+<h3 id="Bad"><a href="#Bad" class="headerlink" title="Bad"></a>Bad</h3><p>&emsp;&emsp;2019 年真是像传说的寒冬，特别寒冷特别的不顺，从去年和朋友一起创建公司的自信心爆棚，到今年4月份的黯然撤出，可以说短短时间经历了创业的心酸与痛苦，让我对自己，对朋友，对合作伙伴，对这个商业的社会都有了更深层次的看法；也对那些创业成功了的人多了一些敬佩。创业可能真是需要天时、地利、人和和过人的坚持。从创业出来找了一份工作，我以为自己稳定了一些，但人短不如天算，我经历从工作以来的第一次欠薪，但当时出现了一些误判，认为程序员频繁的跳槽是不好的，所以选择了坚守，果然皇天不负有心人，我被欠了三个月，其中还经历里长时间的劳动仲裁，后续我也会把当时的仲裁过程分享出来，这些东西是百度不到的。当时创业时候已经把积蓄花光，这三个月对我来说堪称是最难的岁月，当时甚至不敢带儿子去超市，好在老婆一直在后边支持我也没有给我压力我才能挺过去，自己在这几个月中也疯狂的补习基础、补习算法、补习设计模式，其中的心酸和困苦自知。终于所有的付出在8月开花结果。<br><img src="https://oss-image-henry.oss-cn-beijing.aliyuncs.com/images/19891423-6de49cafaf220c90.gif" alt=""></p>
+<h3 id="Good"><a href="#Good" class="headerlink" title="Good"></a>Good</h3><p>&emsp;&emsp;在上家离职之后，通过当时几个月的积累，找到了一份外企的工作，工资离当初自己定的目标也很接近，目前工作也非常顺利，能抽出时间来写一些公众号，搭建自己的博客，也在慢慢参与到开源项目中，更大的收获是自己的英文口语在短短时间内迎来了比较大的提升，这算是这份工作带给我的非常好的礼物。其实后边的时来运转我把它归功于被欠薪三个月的知识积累，以前做项目比较多，所以对基础知识比较欠缺，通过这三个月的深入学习对软件这块有了更全面和深刻的理解；感叹算法怎么可以这么优雅，感叹设计模式怎么可以这么优美。所以人总是需要在经历一些事情之后才会成长。所以我也认为，后续的成长，将会从这里开始。<br><img src="https://oss-image-henry.oss-cn-beijing.aliyuncs.com/images/19891423-72c86ab92e9d05e0.gif" alt=""></p>
+<h3 id="Future"><a href="#Future" class="headerlink" title="Future"></a>Future</h3><p>&emsp;&emsp;在充足的时间里当然不能浪费这么美好的时间(年纪大了，越来越希望时间被少点浪费)，在2020年给自己定下几个目标：</p>
+<ul>
+<li>首先就是读书，当自己准备写东西的时候才知道自己的词汇有多么的匮乏，所以想积累从读书开始，定一个小目标20本;</li>
+<li>对技术的提升，当然这是自己吃饭的家伙，所以今年给自己买了一个最新的笔记本，毕竟工欲善其事必先利其器，自从自己的基础比较扎实之后，感觉写代码都有自信了呢，所以以后会在这方面继续精进。</li>
+<li>写公众号，这件事其实是一件需要坚持才能持续的，并且内容会技术、生活和产品穿插，当然也不排除文笔好了之后对一些热点进行一些点评。最近自己的思想的转变，包括思维的转变都是从关注优质的公众号开始的，我最崇拜的stromzhang，这个哥是彻底改变了我的认知，真的需要向他学习，真实、帅气、有才华;</li>
+<li>学英语，其实这个是比较好实现的，毕竟周围歪果仁不好，想练口语还是很多机会的。</li>
+</ul>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>&emsp;&emsp;在这个浮躁的时代，希望做一个不浮躁的自己，踏实、努力、进取。最后一锅热乎乎的鸡汤。</p>
+<h5 id="难熬的日子总会过去，不信你回头看看，你都已经在不知不觉中熬过了很多苦难，余生很长，不必慌张。"><a href="#难熬的日子总会过去，不信你回头看看，你都已经在不知不觉中熬过了很多苦难，余生很长，不必慌张。" class="headerlink" title="难熬的日子总会过去，不信你回头看看，你都已经在不知不觉中熬过了很多苦难，余生很长，不必慌张。"></a>难熬的日子总会过去，不信你回头看看，你都已经在不知不觉中熬过了很多苦难，余生很长，不必慌张。</h5><p><img src="https://oss-image-henry.oss-cn-beijing.aliyuncs.com/images/19891423-e887cdfe7c9d9ff0.gif" alt=""></p>
+<p>​    </p>
+]]></content>
+  </entry>
+  <entry>
+    <title>关于公众号引流</title>
+    <url>/2020/04/16/%E5%85%B3%E4%BA%8E%E5%85%AC%E4%BC%97%E5%8F%B7%E5%BC%95%E6%B5%81/</url>
+    <content><![CDATA[<p>&emsp;&emsp;昨天写了一篇<a href="https://mp.weixin.qq.com/s?src=11&timestamp=1586957736&ver=2280&signature=ENUkdKpqxz*qEumCV6qnw25p*cJFeTKRPro1EbwhQqmnnPrWBFrJG8PKMytFFr*VuIbX0*Ur0v5LzpF3jrh0XisRWei1o7zfM1MQrp9zX*zHpJMTYHTNV4LNT8xNU1mH&new=1" target="_blank" rel="noopener">技术人怎么开始写博客和运营公众号</a> , 满心欢喜的放到了各大公共平台平台，准备等着大量的流量涌入，走上人生巅峰…，结果今天晚上回家一看几乎每个平台都只有寥寥的几个，还有的平台甚至一个观看量都没有，这对我来说是一个小小的打击。但这并不会难到我们技术人，试着从技术的原理分析我们的访问量为什么这么低。<a id="more"></a>但是当真正查起来的时候确实有点犯难，因为我毕竟是做Android开发的，对运营这块确实是一窍不通，所以只能硬着头皮这么找了。但今天无意间在一个社群里看到了一个大佬”<a href="http://mp.weixin.qq.com/profile?src=3&timestamp=1586961325&ver=1&signature=He810pyfwvkZwxQ6z2m-5fq9ckxlf8hJZo3dsuR18QDa3b918d3mfsPhTgAPlvy8diVlzGai0VbVwgG-wv1T7Q==" target="_blank" rel="noopener">程序员DD</a>“的解答，跟自己目前的情况有点相似，下面我试着用最通俗的话来分析一下。</p>
+<p>&emsp;&emsp;文中大意是构建自己的漏斗模型，这个模型本来是广泛应用于网站和APP用户行为分析的流量监控、CRM系统、SEO优化和一些产品的应用上边，在公众号引流上我还是第一次见到，并且我也把这种方法Google了好几遍，几乎没有使用这种方式的，那这对我们有什么优势呢，下面通过一张图来表示。</p>
+<p><img src="https://oss-image-henry.oss-cn-beijing.aliyuncs.com/images/funnel.jpg" alt=""></p>
+<ol>
+<li>第一部分是属于公共的流量平台</li>
+<li>第二部分是个人的自建网站</li>
+<li>第三部分是微信公众号</li>
+</ol>
+<p>&emsp;&emsp;上面基本是写博客基本会用到的平台，用户的流量会逐层层的向下过滤，逐渐的从流量平台沉淀到微信公众号，用户会越来越少，但少并不一定是坏事，因为留下的可以认为是用户粘性比较高的。</p>
+<p>&emsp;&emsp;那有人会问，为什么不直接在微信公众号直接进行引流呢？</p>
+<ul>
+<li>因为微信公众号是一个相对比较封闭的平台，你在百度、Google等去搜索的时候基本搜不到微信公众号的内容，而通过微信公众号搜索的话也不是很方便，所以通过微信自己引流还是有点难度，这就形成了上边的漏斗模型。</li>
+<li>很多流量平台最近对微信公众号的二维码不友好，也就是平台会识别你的文章里边是不是包含二维码，如果包含的话会对你的文章进行限流操作，这可能也就是我的文章基本没人访问的原因，所以这个时候我们需要用个人的博客对公共平台进行第一次引流（一个悲伤的故事是我的个人博客还没有搭好）。等引到个人博客的时候，我们的可定制性就很高了，可以在里面随便的放二维码，也可以对自己的博客进行SEO优化（如果个人博客访问量大的话也可以接入广告平台增加收入）。在经过博客这层的沉淀用户就有很大的可能去关注我们的公众号。</li>
+</ul>
+<p>&emsp;&emsp;其实经过上面的梳理，我们在写作的时候会有一个大致明确的方向：</p>
+<ul>
+<li>文章在自己的独立博客首发，占领内容SEO优势</li>
+<li>在第一层的公共流量平台扩散，此时注意不要在文中显示我们的二维码，要替换成我们的个人公众号平台链接，用户链接到个人博客中就可以实现向公众号引流。</li>
+</ul>
+<p>&emsp;&emsp;用户在引流过程中，如果以漏斗模型为执行标准，需要严格执行，再去定义自己的引流计划可能会有事半功倍的效果，不然可能反其道行之。还有千万切记不要买粉，我看好多人写怎么涨粉，给的建议居然是在群里发红包的方式让用户去关注公众号，这样虽然粉丝上去了，但可以肯定基本是僵尸粉，也就是安慰自己一下没什么用。</p>
+<p>&emsp;&emsp;还有一点关于写作内容的分享，像我刚开始的时候根本是无从下手，因为自己一心只想着写技术的文章，其实我们抛开技术还有很多的题材可以写，况且刚开始也不会有人关注你，随便写丢人就丢人。推荐给技术人几个写作的方向：</p>
+<ul>
+<li>杂谈，比如我们今天看了一本书，收到什么启发都可以写下来。</li>
+<li>鸡汤，今天我看了一段很浓的鸡汤，我们也可以以这个拓展我们的想象。</li>
+<li>实践总结，在工作中我们攻克了哪些难点。</li>
+<li>干货，完全可以做一个系列的技术文章。</li>
+<li>技术细节，工作中我遇到哪些错误，也完全可以以一个小的Story写出来。</li>
+</ul>
+<p>&emsp;&emsp;今天就写这么多了，后面我也会按照这个模式去坚持写博客，坚持运营。因为我还没有个人博客，插播一条广告 “Henry扶苏”。</p>
+<p>今天不想跑,所以才去跑,这才是长距离跑者的思维方式.<br>    欢迎关注个人公众号 HenryFusu,希望一起成长.</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>初来乍到,请多指教.</title>
+    <url>/2020/04/16/%E5%88%9D%E6%9D%A5%E4%B9%8D%E5%88%B0-%E8%AF%B7%E5%A4%9A%E6%8C%87%E6%95%99/</url>
+    <content><![CDATA[<p>&emsp;&emsp;怀着无比忐忑和矛盾的心情开始了自己的第一篇博客，写博客这件事规划了接近两年，最近才算真正开始投入,算了算自己这算是丢失的两年。好的方向是自己终于迈出这一步。希望用倒逼输出的方式让自己把写博客这件事坚持下去，锻炼自己的写作能力，思维逻辑能力。</p>
+<a id="more"></a>
+
+<p><img src="https://oss-image-henry.oss-cn-beijing.aliyuncs.com/images/funny.jpg" alt=""><br>&emsp;&emsp;俗话说万事开头难，在写博客这件事上第一次感觉到事情无从下手。左顾右盼终于写下第一笔，以此纪念一下。在此，给自己定下个目标，既然已经决定开始更新博客，就要一直坚持下去，每周至少更新一篇。因为自己是做Android系统开发，所以每周更新一篇技术文档，由浅入深，先由简单基础的技术博客开始。每周不定时更新自己的一些感想感悟，达到锻炼写作的能力。<br><img src="https://oss-image-henry.oss-cn-beijing.aliyuncs.com/images/mood.jpg" alt=""></p>
+<p> &emsp;&emsp;以上是我编辑完这篇博客的心情，如果有想一起进步的朋友也可以私信我，让我在坚持的路上不孤单。最后给大家贴一个鸡汤。</p>
+<p>&emsp;&emsp;借用某扑JRS的话：人的一生会经历四次成长，第一次是发现父母不能给我最好的，第二次是发现父母给我的已经足够，第三次是发现父母把最好的都给我了，第四次是把我们最好的给父母。共勉！</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>技术人怎么开始写博客和运营公众号</title>
+    <url>/2020/04/16/%E6%8A%80%E6%9C%AF%E4%BA%BA%E6%80%8E%E4%B9%88%E5%BC%80%E5%A7%8B%E5%86%99%E5%8D%9A%E5%AE%A2%E5%92%8C%E8%BF%90%E8%90%A5%E5%85%AC%E4%BC%97%E5%8F%B7/</url>
+    <content><![CDATA[<h4 id="自述"><a href="#自述" class="headerlink" title="自述"></a>自述</h4><p>&emsp;&emsp;其实我最早接触Android的时候是2013年，那个时候移动应用开发正是大火的时候，满大街的培训班揭竿而起，所以我也算赶上一班车进入到这个行业。说来惭愧，到现在我已经有将近7年的工作经验（java/c++/js）都有过开发经验，本应该是一个程序员的黄金时期，但从现在来看目前还是默默无闻、泯然众人。<a id="more"></a>最近因为疫情的影响，自己也想了很多，为什么很多人技术都差不多，但是从目前的现状来看却差距很大，很多大佬都功成名就，这里边当然有个人努力的原因，但是不是还有其它的条件在制约着我们。其实里边的原理也很简单，很多大佬不仅能在技术上有所突破，更重要的是他们有持续输出和不断学习的习惯，把自己的经验、犯过的错、理解和技术变成文字，提升自己的知名度，从而达到人生巅峰，迎娶白富美。</p>
+<h4 id="为什么要写博客"><a href="#为什么要写博客" class="headerlink" title="为什么要写博客"></a>为什么要写博客</h4><p>&emsp;&emsp;上面谈到，好多大佬通过输出的方式提升了自己的影响力，当用了知名度之后不仅是会有一份好的工作，还有自己的圈子也会得到提升，现在好多大佬还通过自己的公众号和各种圈子进行变现，而且这种变现很可能是让你可以实现财富自由的概念。那么对于我们个人还有写博客的必要吗？当然有，博客不仅可以让我们提升自己的知名度（前提是自己能输出干货），还能大幅度提升我们对技术的理解，达到融会贯通的作用。其实我自己认为对技术的理解有三个层次：一、是我们从脑子里理解；二、我们可以完整的表述在书面上；三、可以通俗说的讲给别人听。如果想达到通俗的讲给别人听，那么完整的书面表达还是挺有必要的，还能提升自己的表达能力和思维能力。</p>
+<h4 id="怎么开始写博客"><a href="#怎么开始写博客" class="headerlink" title="怎么开始写博客"></a>怎么开始写博客</h4><p>&emsp;&emsp;其实对这个问题我也不是很有把握，只能根据自己最近的学习去总结去一步一步踩坑，没办法这步是总要走的，看的再多的博客自己踩坑这步也会毫无疑问的走一遍，所以我们放松心态，饭慢慢吃、路慢慢走。</p>
+<p>&emsp;&emsp;首先平台选择，因为我是做技术出身的，所以我会在一个偏技术的论坛去准备（比如掘金、SegmentFault、CSDN、知乎、简书），当然也可以自己使用hexo+Github 去搭建一套属于自己的免费博客平台，我目前刚选好方案申请下来域名，还没有开始搭建，后续搭建成功之后我会再整理一篇去记录整个过程。对于自建以外的论坛上面的几个还是对技术人比较友好的，当然还有其它的平台，比如博客园、开源中国等，但上边两个是早期比较火爆的技术平台，以前大佬们写作都会发表在上面，最近几年新平台的崛起让博客园、开源中国等不再是写作首选了，而且因为界面确实跟不上时代，非常的杂乱，所以不准备在上边写（毕竟有点视觉洁癖）。</p>
+<p>&emsp;&emsp;写了几篇发现，上边的平台是每个平台都发一遍，而且还要微调格式，这样对刚开始写博客的我来说时间有点浪费，于是开始在Google上查找公共平台，其中两个比较推荐的OpenWrite和简媒，简媒是支持比较多平台的也是比较早的，但对它的写作界面不来电，所以果断选择OpenWrite，这个是刚过了内测的一个多平台转发插件，目前使用感觉挺方便的，支持Markdown语法，也可以查看自己的阅读量和管理文章，目前阶段完美符合我的需求，因为这个是一个Google 插件，<a href="https://openwrite.cn/" target="_blank" rel="noopener">安装方法请参考官网</a>。使用了这个之后效率会提升不少，目前已经开了会员继续使用。</p>
+<p>&emsp;&emsp;另外一个就是图床的选择，我们在写博客的时候其实图片放在本地不是一个好的选择，因为一旦不小心被删了，我们的图片就显示不了，所以需要选择一个图床。在调研了几个平台之后我选择了PicGo+阿里云OSS的方案，总共花了9块钱买了40G的空间，其它方案都有利弊，后续我会把这篇详细的记录下来。</p>
+<h4 id="为什么要运营公众号"><a href="#为什么要运营公众号" class="headerlink" title="为什么要运营公众号"></a>为什么要运营公众号</h4><p>&emsp;&emsp;其实我们写博客一部分是加深我们对技术的理解程度，另一个应该就是希望能挣点钱就更好了，那么这个时候微信公众号的优势就体现出来了，因为微信本就是一个非常大的流量池，并且生态非常的好，所以是非常好的变现平台，其它平台做起来之后都会向公众号引流。现在做公众号是非常的难，毕竟做的人太多了，如果是在05-07年那会做这个事，那真是屎壳郎碰上窜稀的—有吃有喝。现在难度确实会大很多，但难不见得我们就不做，毕竟微信的体量在那，做的好还是有点机会的。很惭愧目前微信公众号我还没有完全弄明白，后面我会边熟悉边输出。如果正好帮到了你倍感荣幸。</p>
+<h4 id="对于写作的一些看法"><a href="#对于写作的一些看法" class="headerlink" title="对于写作的一些看法"></a>对于写作的一些看法</h4><p>&emsp;&emsp;对于我来说，我是理科出身，对于写作这件事非常之没有天分，有时候写出来的东西自己都不想看辣眼睛，这可能也是大部分技术人的通病。所以需要如何改变呢，我谈谈自己的实践，可能不对但反映我的真实状态，以下列举几点：</p>
+<ul>
+<li>我会每天花10分钟快速回顾自己经历的一天，这个不需要太多时间，就是快速的写出来，我大概连续了不到4个月，目前感觉就是文笔会比以前好，也不像以前那么俗了，这件事还是在坚持。</li>
+<li>再就是每天抽一点时间去读书，现在读书的渠道也有很多，我是在微信读书，隔一段时间就零用无限卡，基本上也没有花什么钱，属于白嫖。在看书的时候我会把好多我觉得有道理的句子全部都划上线，然后在读完这本书的时候统一把划线的整理出来，放到印象笔记里，供以后写作的时候用。说实话这个短时间真是看不到效果，至少目前我看不到，但目前看不到不代表以后也会没效果，所以这件事也没有捷径，就是坚持。</li>
+<li>还有就是每天都看大量的技术文档，一定要看英文的，看不懂也要看，一段时间之后你会发现你的英语长进非常大，而且理解的更透彻了。不得不说技术文章真的是太难写了，你要考虑各个方面，所以这个也不能着急，如果想写好就从最简单的去写，不要觉得简单就没有技术含量，其实所有的高级技术都是用这些基础搭建起来的，试着从简单入手一点点深入，后面我会慢慢的从基础的写起。写了这么多也不知如何收笔，所以就到这里吧 , 文采有限请谅解。</li>
+</ul>
+<h5 id="如果你也想在工作之外搞一个小副业，希望可以一同进步，当然也可以关注我的公众号，非常希望能一起冲破自己的瓶颈，在进步的路上不孤单。最后我的公众号”Henry扶苏”。"><a href="#如果你也想在工作之外搞一个小副业，希望可以一同进步，当然也可以关注我的公众号，非常希望能一起冲破自己的瓶颈，在进步的路上不孤单。最后我的公众号”Henry扶苏”。" class="headerlink" title="如果你也想在工作之外搞一个小副业，希望可以一同进步，当然也可以关注我的公众号，非常希望能一起冲破自己的瓶颈，在进步的路上不孤单。最后我的公众号”Henry扶苏”。"></a>如果你也想在工作之外搞一个小副业，希望可以一同进步，当然也可以关注我的公众号，非常希望能一起冲破自己的瓶颈，在进步的路上不孤单。最后我的公众号”Henry扶苏”。</h5>]]></content>
+  </entry>
+</search>
