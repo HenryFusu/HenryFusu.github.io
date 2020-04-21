@@ -388,4 +388,32 @@
 </ul>
 <h5 id="如果你也想在工作之外搞一个小副业，希望可以一同进步，当然也可以关注我的公众号，非常希望能一起冲破自己的瓶颈，在进步的路上不孤单。最后我的公众号”Henry扶苏”。"><a href="#如果你也想在工作之外搞一个小副业，希望可以一同进步，当然也可以关注我的公众号，非常希望能一起冲破自己的瓶颈，在进步的路上不孤单。最后我的公众号”Henry扶苏”。" class="headerlink" title="如果你也想在工作之外搞一个小副业，希望可以一同进步，当然也可以关注我的公众号，非常希望能一起冲破自己的瓶颈，在进步的路上不孤单。最后我的公众号”Henry扶苏”。"></a>如果你也想在工作之外搞一个小副业，希望可以一同进步，当然也可以关注我的公众号，非常希望能一起冲破自己的瓶颈，在进步的路上不孤单。最后我的公众号”Henry扶苏”。</h5>]]></content>
   </entry>
+  <entry>
+    <title>两款超牛B的软件,非常实用</title>
+    <url>/2020/04/21/%E4%B8%A4%E6%AC%BE%E8%B6%85%E7%89%9BB%E7%9A%84%E8%BD%AF%E4%BB%B6-%E9%9D%9E%E5%B8%B8%E5%AE%9E%E7%94%A8/</url>
+    <content><![CDATA[<h1 id="两款超牛B的软件-非常实用"><a href="#两款超牛B的软件-非常实用" class="headerlink" title="两款超牛B的软件,非常实用"></a>两款超牛B的软件,非常实用</h1><h3 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h3><p>&emsp;&emsp;本来自己是想写一些技术相关的,但是写着写着突然发现最近发的几乎都和技术关系不大,可能是因为最近下班之余一直在搭建博客和公众号相关的.算了将错就错吧,人生总有会走偏的时候，既然偏了那就再偏一阵子.今天看到社群里在讨论写作相关的话题,讨论到工具这块,正好自己最近也找了好多的工具来辅助自己,索性把自己认为好的几个推荐出来,如果正好帮助到你莫感荣幸,如果正好推荐到你擅长的,请轻点喷.</p>
+<a id="more"></a>
+
+<h3 id="关于工具"><a href="#关于工具" class="headerlink" title="关于工具"></a>关于工具</h3><p>&emsp;&emsp;一个简约软件能够让你提高生产力,一个优雅的软件能够让你赏心悦目,不知大家怎么看,我本人每当用到那些简约的软件,整个人就会非常的爽,会在不使用的时候也启动一下看看,如果碰到界面非常杂乱的软件,直接会导致工作效率的下降,并且从心里抵制实用,然后去Github去找有没有开源软件,我想这应该也是一种轻度的洁癖.下面我介绍4个我目前最常用的软件(因为我的事Mac,所以都是基于Mac介绍的,不过其他平台差距不大):</p>
+<h3 id="Typora"><a href="#Typora" class="headerlink" title="Typora"></a>Typora</h3><p>&emsp;&emsp;讲真的,这绝对是我碰到过最优雅的Markdown软件,像其它的Markdown软件或插件我基本都是用过,知道我用了这个之后我才发现,这几乎就是Markdown的究极形态,用少数派上边形容就是它[<strong>功能之强大、设计之冷静、体验之美妙、理念之先进</strong>],以前用的都是Dog Shit(请忽略这糟糕的语法). 好吧,我太激动了,下面开始介绍:</p>
+<h4 id="简介Typora"><a href="#简介Typora" class="headerlink" title="简介Typora"></a>简介Typora</h4><p>&emsp;&emsp;它的官网Slogen:一个最小的Markdown编辑器,当然这是我翻译过来的,它支持实时预览，当然同时支持Windows、Linux,目前来说完全免费,后续不确定是否免费.</p>
+<img src="https://oss-image-henry.oss-cn-beijing.aliyuncs.com/images/Typora.jpg" style="zoom: 50%;" />
+
+<p>&emsp;&emsp;上边的是我在官网截的一张图,简直简洁的不像话,甚至有点过分.下面简单介绍下几个好用的点.</p>
+<h4 id="优美的书写"><a href="#优美的书写" class="headerlink" title="优美的书写"></a>优美的书写</h4><p>&emsp;&emsp;一个好的编辑器,写得舒服很重要,Typora对Markdown的命令模式和用户操作模式切换的很好,即使你不懂得Markdown语法,你也能非常快的上手,因为导航栏里准备好的所有你想要的就如下图,怎么样很简单吧!</p>
+<p>&emsp;<img src="https://oss-image-henry.oss-cn-beijing.aliyuncs.com/images/1587392591419.jpg" style="zoom: 80%;" /></p>
+<h4 id="图片处理"><a href="#图片处理" class="headerlink" title="图片处理"></a>图片处理</h4><p>&emsp;&emsp;不知道你用其他的平台插入图片是什么感觉,反正我是经常插入错误,但这在Typora上完全不会发生,你可以用命令生成、直接打开本地或网络图片、如果你都不喜欢,那你就直接拖拽过去也是可以的,这算是一个相当实用的功能了。</p>
+<h4 id="高级功能"><a href="#高级功能" class="headerlink" title="高级功能"></a>高级功能</h4><p>&emsp;&emsp;Typora不仅支持这些基础的功能,在数学公式插入和流程图的支持也很到位,所以你是高级用户也能在这里找到感觉.</p>
+<h4 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h4><p>&emsp;&emsp;支持丰富的主题比如:Github、Gothic、NewSprint、Night等主题,如果再想了解的更深入一点,欢迎你去<a href="https://www.typora.io/" target="_blank" rel="noopener">官网</a>.</p>
+<h3 id="Draw-io"><a href="#Draw-io" class="headerlink" title="Draw.io"></a>Draw.io</h3><h4 id="简介Draw-io"><a href="#简介Draw-io" class="headerlink" title="简介Draw.io"></a>简介Draw.io</h4><p>&emsp;&emsp;draw.io 是一个非常强大简洁的绘图工具,支持流程图,UML图、架构图、原型图等.支持网盘同步,目前永久免费.draw.io 同时提供了Web版和桌面版,目前我觉得桌面版要比网页版用起来好很多.</p>
+<p>&emsp;&emsp;最开始使用Visio软件,后来换成mac用不了了,所以只能找下一个,后边遇到了ProcessOn，不得不说这个软件套路不少,奈何套路再多,也不能从我这拔走一根毛(主要还是在试用期感觉一般,没有太亮点,所以没有动力去开会员).后来遇到了这个开源软件,不知道为啥,我第一次见到这个软件就被这个软件吸引了,完美适配我的所有需求,支持图形种类多、免费、功能强大,最重要的是这款软件也优雅的不像话.其它软件如ProcessOn、Visio、Edraw功能也很强大,但draw.io 我也觉得完全不输上边的.所以有个性的程序员来试试吧!下面是我做了一些截图:</p>
+<img src="https://oss-image-henry.oss-cn-beijing.aliyuncs.com/images/1587395443011.jpg" style="zoom: 45%;" />
+
+<h4 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h4><p>&emsp;&emsp;Draw.io 支持的格式png、jpeg、svg、html、xml、url,这基本覆盖我们平时用的大部分的使用格式了.</p>
+<h4 id="颜色选择"><a href="#颜色选择" class="headerlink" title="颜色选择"></a>颜色选择</h4><p>&emsp;&emsp;平时我在使用的时候,有个很棘手的问题,就是我基本不会配色,或者配色出来非常难看,draw.io 会提供一些颜色供你选择,我觉的这个对我这样的挺实用的,并且我真的觉得挺好看的,对于颜色选择有困难的是个福音.</p>
+<img src="https://oss-image-henry.oss-cn-beijing.aliyuncs.com/images/1587398357312.jpg" style="zoom:65%;" />
+
+<h4 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h4><p>&emsp;&emsp;其实还有其他好多的功能,不能在这一一展示,感兴趣可以下载来试试看.</p>
+]]></content>
+  </entry>
 </search>
