@@ -63,20 +63,20 @@
   };
 </script>
 
-  <meta name="description" content="今天下班之后雄心壮志准备大写特写一篇技术文章，准备了一些一手资料，回到家打开微信公众号平台，发现今天多了 4 个用户的关注，这对于我来说真的是雪中送碳的感觉，相当于翻了昨天的 300%，虽然关注的人并不多，但对于我来说真的一件大事，由此推断我的技术文章写不出来了，所以今天特别想写一点最近这些天来写公众号的和博客的一些感受，明天继续技术文章。">
+  <meta name="description" content="今天在逛技术网站的时候，看到了一个好东西，Database Inspector 第一眼看上去感觉没有用过，老样子赶紧百度一下，发现基本没有这方面的文章，看来这个应该是在内测还未推出的工具，首先说一下 Database Inspector  是干什么的？其实要解决的问题就是我们在调试数据库的时候，使它可以想编辑 Excel 一样的简单，直接修改直接生效，这有什么好处呢？不用我们在一点一点的去 Deb">
 <meta property="og:type" content="article">
-<meta property="og:title" content="为什么今天不写技术文章">
-<meta property="og:url" content="http://henryfusu.com/2020/04/22/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BB%8A%E5%A4%A9%E4%B8%8D%E5%86%99%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/index.html">
+<meta property="og:title" content="Android Studio Database Inspector 使用">
+<meta property="og:url" content="http://henryfusu.com/2020/04/23/Android-Studio-Database-Inspector-%E4%BD%BF%E7%94%A8/index.html">
 <meta property="og:site_name" content="Henry扶苏">
-<meta property="og:description" content="今天下班之后雄心壮志准备大写特写一篇技术文章，准备了一些一手资料，回到家打开微信公众号平台，发现今天多了 4 个用户的关注，这对于我来说真的是雪中送碳的感觉，相当于翻了昨天的 300%，虽然关注的人并不多，但对于我来说真的一件大事，由此推断我的技术文章写不出来了，所以今天特别想写一点最近这些天来写公众号的和博客的一些感受，明天继续技术文章。">
+<meta property="og:description" content="今天在逛技术网站的时候，看到了一个好东西，Database Inspector 第一眼看上去感觉没有用过，老样子赶紧百度一下，发现基本没有这方面的文章，看来这个应该是在内测还未推出的工具，首先说一下 Database Inspector  是干什么的？其实要解决的问题就是我们在调试数据库的时候，使它可以想编辑 Excel 一样的简单，直接修改直接生效，这有什么好处呢？不用我们在一点一点的去 Deb">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2020-04-22T04:35:21.000Z">
-<meta property="article:modified_time" content="2020-04-22T04:36:17.534Z">
+<meta property="article:published_time" content="2020-04-23T01:38:02.000Z">
+<meta property="article:modified_time" content="2020-04-23T01:38:27.546Z">
 <meta property="article:author" content="Henry扶苏">
 <meta property="article:tag" content="技术人">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://henryfusu.com/2020/04/22/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BB%8A%E5%A4%A9%E4%B8%8D%E5%86%99%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/">
+<link rel="canonical" href="http://henryfusu.com/2020/04/23/Android-Studio-Database-Inspector-%E4%BD%BF%E7%94%A8/">
 
 
 <script id="page-configurations">
@@ -88,7 +88,7 @@
   };
 </script>
 
-  <title>为什么今天不写技术文章 | Henry扶苏</title>
+  <title>Android Studio Database Inspector 使用 | Henry扶苏</title>
   
     <script>
       function sendPageView() {
@@ -245,7 +245,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://henryfusu.com/2020/04/22/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BB%8A%E5%A4%A9%E4%B8%8D%E5%86%99%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/">
+    <link itemprop="mainEntityOfPage" href="http://henryfusu.com/2020/04/23/Android-Studio-Database-Inspector-%E4%BD%BF%E7%94%A8/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/Logo.jpg">
@@ -258,7 +258,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          为什么今天不写技术文章
+          Android Studio Database Inspector 使用
         </h2>
 
         <div class="post-meta">
@@ -268,7 +268,7 @@
               </span>
               <span class="post-meta-item-text">发表于</span>
 
-              <time title="创建时间：2020-04-22 12:35:21" itemprop="dateCreated datePublished" datetime="2020-04-22T12:35:21+08:00">2020-04-22</time>
+              <time title="创建时间：2020-04-23 09:38:02" itemprop="dateCreated datePublished" datetime="2020-04-23T09:38:02+08:00">2020-04-23</time>
             </span>
 
           
@@ -287,8 +287,8 @@
       </span>
       <span class="post-meta-item-text">Valine：</span>
     
-    <a title="valine" href="/2020/04/22/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BB%8A%E5%A4%A9%E4%B8%8D%E5%86%99%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/2020/04/22/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BB%8A%E5%A4%A9%E4%B8%8D%E5%86%99%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/" itemprop="commentCount"></span>
+    <a title="valine" href="/2020/04/23/Android-Studio-Database-Inspector-%E4%BD%BF%E7%94%A8/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2020/04/23/Android-Studio-Database-Inspector-%E4%BD%BF%E7%94%A8/" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -303,39 +303,53 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>今天下班之后雄心壮志准备大写特写一篇技术文章，准备了一些一手资料，回到家打开微信公众号平台，发现今天多了 4 个用户的关注，这对于我来说真的是雪中送碳的感觉，相当于翻了昨天的 300%，虽然关注的人并不多，但对于我来说真的一件大事，由此推断我的技术文章写不出来了，所以今天特别想写一点最近这些天来写公众号的和博客的一些感受，明天继续技术文章。</p>
-<a id="more"></a>
-
-<p>目前我的公众号总用有 14 位用户，当然包括我自己的两个号、我老婆的号、我妈的号(估计是我强行给关注的)，还有应该都是我不认识的伙伴了，不过这里真的非常感谢其余 10 位关注伙伴，这真的给了我很大的信心，万一以后一不小心做成大号，希望也有你们的陪伴。</p>
-<p>在这，简单聊一聊最近写博客和公众号的一些感受。其实这个号注册的很早 2018 年就已经注册了，那个时候就准备在上面写点东西，但中间因为创业失败、被一家公司拖欠工资、到现在这家公司的趋于稳定，我的时间也就基本被这样撕扯掉了，当然更大的原因还是自己的执行力不够，导致事情一拖再拖。但因为这次疫情，在家办公的时间多了起来，我也终于有充足的时间来对自己进行复盘，通透的梳理了一下自己的过往，也对自己未来的规划做了一些设计，终于在 4 月份开始了自己的副业自媒体生涯，希望自己可以一直坚持下去，也希望能看到的各位能有所启发，发展自己的副业。</p>
-<p>其实在写公众号这件事上遇到最大的困难就是坚持，坚持其实跟自己的意志力有关，读过一本巨著「意志力」这本书里有一句话，决定一个人能否成功的后天因素中，排在第一位的就是意志力。道理我们都懂，但是很难做到，所以该怎么去改变呢，首先从个人来说，我觉得应该先从自身做起，比如开始跑步、开始读书、开始保持良好的作息这样的小事做起，当你可以坚持下去的时候，你的意志力也会得到锻炼，以后再做其它事的时候你也会更好的克服。还有对外多接触一些优秀的圈子、多跟其它行业优秀的、爱学习的人去接触交流，多少会对我们有促进作用。</p>
-<p>还有一件事就是孤独，其实像公众号的排版、运营、包括博客的搭建、还有多平台的分发、引流这样的技术问题难不倒我们，真正棘手的是写作这件事真的很孤独，我们不像专业的写手，从一开始就从事这样的工作，我属于半路出家，所有的写作运营都要从零开始，很多时候我都在手足无措、抓耳挠腮，并且很难有人去指导你，这些都要你自己去主动的获取，基本就是从社群获取一点知识，从网络上获取一点知识，剩余的一些靠自己摸索。但我觉得如果我们能战胜这些孤独，可能会有很大的收获。</p>
-<p>上周在休息的时候，偶尔听到了郭德纲相声里的一段唱，是选自北宋吕蒙正的一首词「时运赋」， 虽然我清楚词里描述不是我这样的人，但还是按耐不住一直循环播放，有想试一试的可以去 B 站去搜一下，不得不说古人的鸡汤是真的很浓，我把它贴在下边 : </p>
-<p>时也，命也 , 运也！天有不测风云，人有旦夕祸福。</p>
-<p>蜈蚣百足，行不及蛇。</p>
-<p>灵鸡有翼，飞不如鸭。</p>
-<p>马有千里之程，无人不能自往。</p>
-<p>人有凌云之志，非运不能腾达。</p>
-<p>文章盖世，孔子尚困于陈邦；武略超群，太公垂钓于渭水。</p>
-<p>盗跖年长，不是善良之辈；颜回命短，实非凶恶之徒。</p>
-<p>尧、舜至圣，却生不肖之子；瞽叟顽呆，反生大圣之儿。 </p>
-<p>张良原是布衣，萧何称谓县吏。</p>
-<p>晏子身无五尺，封为齐国首相；孔明卧居草卢，能作蜀汉军师。</p>
-<p>韩信无缚鸡之力，封为汉朝大将；冯唐有安邦之志，到老半官无封。</p>
-<p>李广有射虎之威，终身不第。</p>
-<p>楚王虽雄，难免乌江自刎；汉王虽弱，却有江山万里。</p>
-<p>满腹经纶，白发不第。</p>
-<p>才疏学浅，少年登科。</p>
-<p>有先富而后贫，有先贫而后富。</p>
-<p>蛟龙未遇，潜身于鱼虾之间。</p>
-<p>君子失时，拱手于小人之下。</p>
-<p>天不得时，日月无光。</p>
-<p>地不得时，草木不长。</p>
-<p>水不得时，风浪不平。</p>
-<p>人不得时，利运不通。</p>
-<p>昔时也，余在洛阳，日投僧院，夜宿寒窑；布衣不能遮其体，淡粥不能充其饥；上人憎，下人厌，皆言：” 余之贱也！” 余曰：” 非吾贱也！乃时也，运也，命也！”</p>
-<p>余及第登科，官至极品，位列三公；有挞百僚之杖，有斩鄙吝之剑；出则壮士执鞭，入则佳人捧袂；思衣则有绫罗锦缎，思食则有山珍海味；上人宠，下人拥，人皆仰慕，言：” 余之贵也！” 余曰：” 非吾贵也！乃时也，运也，命也！”</p>
-<p>盖，人生在世，富贵不能移，贫贱不可欺；此乃天地循环，终而复始者也！</p>
+        <p>今天在逛技术网站的时候，看到了一个好东西，Database Inspector 第一眼看上去感觉没有用过，老样子赶紧百度一下，发现基本没有这方面的文章，看来这个应该是在内测还未推出的工具，首先说一下 Database Inspector  是干什么的？其实要解决的问题就是我们在调试数据库的时候，使它可以想编辑 Excel 一样的简单，直接修改直接生效，这有什么好处呢？不用我们在一点一点的去 Debug 数据了，这个看来还是非常有用的。</p>
+<p>本来想找一些资料来整理一下，但无意间看到一个 Google 的大佬工程师已经分享了一篇教程，所以参考了一下然后简单的进行了翻译，废话不多说，一下就是具体使用方法，感兴趣的伙伴们可以看一下。以下是正文：</p>
+<p>创建和管理本地数据库是大多数移动应用程序的核心组件。但是，无论直接使用 <strong>SQLite</strong> 还是通过 <a href="https://developer.android.com/topic/libraries/architecture/room" target="_blank" rel="noopener"><strong>Room</strong></a> 持久性库使用，Android 开发人员一直在寻求一种更好的方法来检查和调试正在运行的应用程序中的数据库。</p>
+<p>最新版本的 Android Studio 4.1（当前在Canary中可用）附带了一个名为 <strong>Database Inspector</strong> 的新工具， 该工具可帮助您检查，查询和修改正在运行的应用程序中的数据库。</p>
+<p>![](<a href="https://oss-image-henry.oss-cn-beijing.aliyuncs.com/images/If" target="_blank" rel="noopener">https://oss-image-henry.oss-cn-beijing.aliyuncs.com/images/If</a> your app uses Room and observes the query results, you don’t need to restart the app to see the changes.gif)</p>
+<p>使用 Database Inspector，修改数据库中的数据并不比编辑电子表格难。如果您正在使用 <strong>Room</strong> 并观察查询结果，更改将立即反映在您的 App 中！</p>
+<p>在本文中，我们将结合使用 Database Inspector 和 <a href="https://github.com/android/sunflower" target="_blank" rel="noopener"><strong>Sunflower</strong></a> App 来测试一些极端情况。Sunflower 是一个园艺 App，用于说明 Android Jetpack 的 Android 开发最佳实践。在阅读本文时，我建议您克隆这个 Github 仓库。</p>
+<h3 id="首先"><a href="#首先" class="headerlink" title="首先"></a>首先</h3><p>Sunflower App 的 UI 包含两个选项卡。要将一些植物添加到我的花园中，我们看一下 <strong>“Plant List”</strong> 选项卡，其中列出了我的花园中可用的植物。在右上角有一个过滤器按钮。当我按下此按钮时，将显示以下植物列表：</p>
+<p>![](<a href="https://oss-image-henry.oss-cn-beijing.aliyuncs.com/images/Click" target="_blank" rel="noopener">https://oss-image-henry.oss-cn-beijing.aliyuncs.com/images/Click</a> to filter Plant List.png)</p>
+<p>显然，此按钮可根据某些条件过滤植物。但是，让我们想象一下，我对这个项目不是很熟悉，我想通过使用数据库检查器来了解过滤的工作方式。</p>
+<p>在 Android Studio 中打开数据库检查器，我需要从菜单栏中选择 <strong>View &gt; Tool Windows &gt; Database Inspector</strong>。</p>
+<p>![](<a href="https://oss-image-henry.oss-cn-beijing.aliyuncs.com/images/Select" target="_blank" rel="noopener">https://oss-image-henry.oss-cn-beijing.aliyuncs.com/images/Select</a> View &gt; Tool Windows &gt; Database Inspector from the menu bar to open Database Inspector.gif)</p>
+<p>上一步动作会启动数据库检查器。</p>
+<p>![](<a href="https://oss-image-henry.oss-cn-beijing.aliyuncs.com/images/Database" target="_blank" rel="noopener">https://oss-image-henry.oss-cn-beijing.aliyuncs.com/images/Database</a> Inspector window.png)</p>
+<p>现在，我需要在运行 API 级别 26 或更高级别的设备上运行应用程序，然后从下拉菜单中选择应用程序进程。</p>
+<p>![](<a href="https://oss-image-henry.oss-cn-beijing.aliyuncs.com/images/Select" target="_blank" rel="noopener">https://oss-image-henry.oss-cn-beijing.aliyuncs.com/images/Select</a> the running app process from the dropdown menu.png)</p>
+<p>选择要检查的应用程序过程后，数据库模式将显示在下面的面板中。要查看 Sunflower 数据库表，我需要扩展 *<em>…/ databases / sunflower-db *</em> schema。</p>
+<p>![](<a href="https://oss-image-henry.oss-cn-beijing.aliyuncs.com/images/Once" target="_blank" rel="noopener">https://oss-image-henry.oss-cn-beijing.aliyuncs.com/images/Once</a> you select a process, the app databases are listed.png)</p>
+<p>让我们回到该 App，看看过滤后的植物列表。名单包括 <strong>Avocado</strong>，<strong>Grape</strong>，<strong>Orange</strong> 和 <strong>Tomato</strong>。如果我可以按植物名称对植物表进行排序，那么找到 <strong>Avocado</strong> 就不难了。让我们看看数据库检查器是否可以做到这一点！</p>
+<p>首先，我双击 <strong>plants</strong> 表以显示其数据。数据显示的默认页面大小为 50，但是您可以在较短的结果列表之间减少此数字和页面。单击 <strong>name</strong> 列可将 <strong>plant</strong> 表按条目名称排序。果然，<strong>Avocado</strong> 不在列表的最下方，我在表的第二行中找到它。</p>
+<h3 id="查询数据库"><a href="#查询数据库" class="headerlink" title="查询数据库"></a>查询数据库</h3><p>查看 <strong>Avocado</strong> 的数据条目，<strong>growZoneNumber</strong> 最有可能是应用程序用于过滤的属性。为了验证这一点，让我们在<strong>growZoneNumber</strong>上运行查询<em>，</em>对于 <strong>Avocado</strong>而言 为 9 。实际上，该查询已经存在于 PlantDao.kt 中，我可以直接从 <strong>Room</strong> 的 <strong>@Query</strong> 批注中运行查询。每个 <strong>@Query</strong> 注释的行号旁边都有一个小运行图标。</p>
+<p>当我单击查询 getPlantsWithGrowZoneNumber() 的运行图标并选择正确的数据库时，将出现一个弹出窗口，询问我：growZoneNumber 的值。</p>
+<p>![](<a href="https://oss-image-henry.oss-cn-beijing.aliyuncs.com/images/You" target="_blank" rel="noopener">https://oss-image-henry.oss-cn-beijing.aliyuncs.com/images/You</a> can run queries directly from Query annotation.gif)</p>
+<p>我可以输入值 <em>9</em> 并单击 <strong>“Run”</strong> 以查看查询结果。</p>
+<p>另外，我可以键入自己的查询并在工具窗口中运行它。这给了我更多的可选择性，因为我不仅限于在 DAO 接口中定义的查询。要运行自己的查询，请单击 <strong>“Run SQL”</strong>，然后从右侧新打开的选项卡中选择 <strong>plants</strong> 数据库。</p>
+<p>![](<a href="https://oss-image-henry.oss-cn-beijing.aliyuncs.com/images/Select" target="_blank" rel="noopener">https://oss-image-henry.oss-cn-beijing.aliyuncs.com/images/Select</a> Live Updates.png)</p>
+<p>接下来，我在数据库选择下拉列表旁边的框中输入以下查询，然后点击<strong>Run</strong>。</p>
+<p>“ Select * from plants where growZoneNumber = 9 “</p>
+<p>![](<a href="https://oss-image-henry.oss-cn-beijing.aliyuncs.com/images/You" target="_blank" rel="noopener">https://oss-image-henry.oss-cn-beijing.aliyuncs.com/images/You</a> can execute SQL queries in Database Inspector.gif)</p>
+<p>这里！我们具有与打开过滤器时完全相同的植物列表。</p>
+<h3 id="修改和调试数据库"><a href="#修改和调试数据库" class="headerlink" title="修改和调试数据库"></a>修改和调试数据库</h3><p>数据库检查器允许您在应用程序在设备上运行时修改应用程序数据库中的值，从而轻松调试应用程序。</p>
+<p>首先，我要测试应用程序用户界面中是否有很长的植物名称。我将使用 Database Inspector 直接在数据库上编辑值，而不是更改数据源并使用新数据刷新数据库。</p>
+<p>![](<a href="https://oss-image-henry.oss-cn-beijing.aliyuncs.com/images/You" target="_blank" rel="noopener">https://oss-image-henry.oss-cn-beijing.aliyuncs.com/images/You</a> can edit your database in Database Inspector.png)</p>
+<p>现在该单元格是可编辑的，我将名称从 <strong>Apple</strong> 更改为一种非常特殊的 <strong>Apple</strong> 类型，然后按 <strong>Enter</strong>。如果您遵循此步骤，则可以在应用程序用户界面中键入任何您想要测试的长度的内容。</p>
+<p>![](<a href="https://oss-image-henry.oss-cn-beijing.aliyuncs.com/images/Database" target="_blank" rel="noopener">https://oss-image-henry.oss-cn-beijing.aliyuncs.com/images/Database</a> Inspector helps you to modify the data just like editing a spreadsheet.gif)</p>
+<p>现在，让我们回到该 App。请注意，我们没有做任何事情，该应用程序将显示更新的数据！如果您的应用程序使用 <strong>Room</strong> 并观察到查询结果（using LiveData / Flow），则无需触发数据库查询即可刷新数据。否则，根据您的应用触发查询的方式，您可能需要重新启动该应用或仅再次导航到相关的活动/片段。为了充分发挥 Database Inspector 的潜能，这可能是迁移您的应用程序以使用 <strong>LiveData</strong> 或 <strong>Flow</strong> 的好借口。</p>
+<p>回顾我们的应用程序，看似名片视图并非旨在处理如此长的植物名称。稍后将解决此问题，但让我们继续下一个测试。</p>
+<p>![](<a href="https://oss-image-henry.oss-cn-beijing.aliyuncs.com/images/The" target="_blank" rel="noopener">https://oss-image-henry.oss-cn-beijing.aliyuncs.com/images/The</a> app doesn’t seem to handle long text well.png)</p>
+<p>每个植物都有不同的浇水间隔，我想看看何时浇水到期。为此，我需要在花园里添加一些植物。但是首先，我在数据库检查器中选中了 <strong>Live updates</strong> 复选框。当 <strong>Live updates</strong> 检查，数据库检查自动显示任何改变你的应用程序，使得它的数据库。</p>
+<p>![](<a href="https://oss-image-henry.oss-cn-beijing.aliyuncs.com/images/Select" target="_blank" rel="noopener">https://oss-image-henry.oss-cn-beijing.aliyuncs.com/images/Select</a> Live Updates.png)</p>
+<p>我回到 <strong>My Garden</strong> 选项卡，添加一些植物，例如 <strong>Avocado</strong> 和 <strong>Eggplant</strong>。但是首先，我回到 Database Inspector，双击 <strong>garden_plantings</strong> 观察表。请注意，在添加新植物时，garden_plantings 表中的数据是如何自动更新的。</p>
+<p>![](<a href="https://oss-image-henry.oss-cn-beijing.aliyuncs.com/images/Database" target="_blank" rel="noopener">https://oss-image-henry.oss-cn-beijing.aliyuncs.com/images/Database</a> Inspector can automatically display changes.gif)</p>
+<p>这两种植物的浇水间隔均为 3 天。我真的不想等待 3 天才能看到会发生什么，所以我将编辑数据库并更改 <strong>last_watering_day</strong>。我再次回到 Database Inspector，然后双击 <strong>garden_plantings</strong>。该 <strong>last_watering_date</strong> 是表的最后一栏。我将两个记录的值更改为较小的值，以反映今天的某个日期之前的某个时间。</p>
+<p>![](<a href="https://oss-image-henry.oss-cn-beijing.aliyuncs.com/images/Edits" target="_blank" rel="noopener">https://oss-image-henry.oss-cn-beijing.aliyuncs.com/images/Edits</a> to your databases are visible instantly.png)</p>
+<p>好的，看来我的时间倒退了一点，但这对于我的测试起了作用。应用界面似乎可以很好地显示截止日期。为了未来的发展，我们建议在浇水日过后为用户添加警告。</p>
+<p>继续尝试新的数据库检查器！如果您遇到任何问题，请不要忘记<a href="https://issuetracker.google.com/issues/new?component=192708&template=840533&title=%23database-inspector" target="_blank" rel="noopener">提交错误</a>！</p>
+<p>最后贴上原文链接 <a href="https://medium.com/androiddevelopers/database-inspector-9e91aa265316" target="_blank" rel="noopener">https://medium.com/androiddevelopers/database-inspector-9e91aa265316</a></p>
 
     </div>
 
@@ -351,7 +365,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
-    <a href="http://henryfusu.com/2020/04/22/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BB%8A%E5%A4%A9%E4%B8%8D%E5%86%99%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/" title="为什么今天不写技术文章">http://henryfusu.com/2020/04/22/为什么今天不写技术文章/</a>
+    <a href="http://henryfusu.com/2020/04/23/Android-Studio-Database-Inspector-%E4%BD%BF%E7%94%A8/" title="Android Studio Database Inspector 使用">http://henryfusu.com/2020/04/23/Android-Studio-Database-Inspector-使用/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
@@ -395,13 +409,10 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2020/04/21/%E4%B8%A4%E6%AC%BE%E8%B6%85%E7%89%9BB%E7%9A%84%E8%BD%AF%E4%BB%B6-%E9%9D%9E%E5%B8%B8%E5%AE%9E%E7%94%A8/" rel="prev" title="两款超牛B的软件,非常实用">
-      <i class="fa fa-chevron-left"></i> 两款超牛B的软件,非常实用
+    <a href="/2020/04/22/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BB%8A%E5%A4%A9%E4%B8%8D%E5%86%99%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/" rel="prev" title="为什么今天不写技术文章">
+      <i class="fa fa-chevron-left"></i> 为什么今天不写技术文章
     </a></div>
-      <div class="post-nav-item">
-    <a href="/2020/04/23/Android-Studio-Database-Inspector-%E4%BD%BF%E7%94%A8/" rel="next" title="Android Studio Database Inspector 使用">
-      Android Studio Database Inspector 使用 <i class="fa fa-chevron-right"></i>
-    </a></div>
+      <div class="post-nav-item"></div>
     </div>
       </footer>
     
@@ -463,6 +474,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#首先"><span class="nav-number">1.</span> <span class="nav-text">首先</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#查询数据库"><span class="nav-number">2.</span> <span class="nav-text">查询数据库</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#修改和调试数据库"><span class="nav-number">3.</span> <span class="nav-text">修改和调试数据库</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
